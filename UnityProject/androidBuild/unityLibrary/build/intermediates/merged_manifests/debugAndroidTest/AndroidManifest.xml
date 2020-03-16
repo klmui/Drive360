@@ -17,6 +17,9 @@
     <uses-feature
         android:name="android.hardware.vulkan.version"
         android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -27,7 +30,9 @@
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
 
-    <application android:debuggable="true" >
+    <application
+        android:debuggable="true"
+        android:theme="@style/VrActivityTheme" >
         <uses-library android:name="android.test.runner" />
 
         <activity
@@ -35,14 +40,14 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="landscape"
             android:theme="@style/UnityThemeSelector" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- <category android:name="com.google.intent.category.CARDBOARD" /> -->
+            <!-- </intent-filter> -->
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
@@ -52,17 +57,20 @@
         </activity>
 
         <meta-data
+            android:name="unityplayer.SkipPermissionsDialog"
+            android:value="true" />
+        <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
         <meta-data
             android:name="unity.splash-enable"
-            android:value="True" />
+            android:value="False" />
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="8b754105-bacd-4f18-808d-c2884347d108" />
+            android:value="9cdc8b62-23ba-48f0-9679-18f518fff1a4" />
     </application>
 
 </manifest>

@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SupportBackScript : MonoBehaviour {
-  void Start()
-    {
-        
+public class SupportBackScript: MonoBehaviour {
+    void Start() {
+
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.Escape)) {
-            Application.Quit();
+    void Update() {
+        void Update() {
+            if (Input.GetKeyDown(KeyCode.Escape)) {
+                Application.Quit();
+            }
         }
     }
 }

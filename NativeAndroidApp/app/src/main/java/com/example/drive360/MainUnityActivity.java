@@ -16,36 +16,7 @@ public class MainUnityActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-//    public void onUnityPlayerQuitted() {
-//        Intent intent = new Intent(this, MainActivity.class);
-//        startActivity(intent);
-//        finish();
-//    }
-
-
-//    @Override
-//    public void onBackPressed() {
-//        UnityPlayer.fin
-//        switchToMain();
-//    }
-//
-//    public void switchToMain() {
-//        Intent intent = new Intent(this, MainActivity.class);
-//        startActivity(intent);
-//    }
-
-//    public boolean onKeyUp(int keyCode, KeyEvent event) {
-//        if (keyCode == KeyEvent.KEYCODE_BACK && event.isTracking()
-//                && !event.isCanceled()) {
-//            Intent intent = new Intent(this, MainActivity.class);
-//            startActivity(intent);
-//            return true;
-//        }
-//        return super.onKeyUp(keyCode, event);
-//    }
-
-
-//    // User quit Unity application
+    // User quit Unity application
 //    @Override
 //    public void onDestroy() {
 //        super.onDestroy();
