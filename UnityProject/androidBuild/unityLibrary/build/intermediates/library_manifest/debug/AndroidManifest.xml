@@ -33,11 +33,7 @@
             android:screenOrientation="landscape"
             android:theme="@style/UnityThemeSelector" >
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- <category android:name="com.google.intent.category.CARDBOARD" /> -->
-            <!-- </intent-filter> -->
+            <!-- git -->
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
