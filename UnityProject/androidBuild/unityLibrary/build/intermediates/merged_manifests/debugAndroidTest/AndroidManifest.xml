@@ -19,6 +19,7 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:name="android.hardware.touchscreen"
@@ -40,7 +41,7 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="landscape"
+            android:screenOrientation="fullSensor"
             android:theme="@style/UnityThemeSelector" >
 
             <!-- <intent-filter> -->
@@ -70,7 +71,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="9cdc8b62-23ba-48f0-9679-18f518fff1a4" />
+            android:value="08de2860-e844-4d69-bdbe-f1473238f86f" />
     </application>
 
 </manifest>

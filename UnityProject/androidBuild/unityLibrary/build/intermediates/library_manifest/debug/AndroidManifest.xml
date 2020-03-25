@@ -11,9 +11,6 @@
         android:targetSdkVersion="28" />
 
     <uses-feature android:glEsVersion="0x00030000" />
-    <uses-feature
-        android:name="android.hardware.vulkan.version"
-        android:required="false" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -63,7 +60,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="9cdc8b62-23ba-48f0-9679-18f518fff1a4" />
+            android:value="ee3f133d-9f4d-41a0-b794-de4ca6b5964b" />
     </application>
 
 </manifest>
