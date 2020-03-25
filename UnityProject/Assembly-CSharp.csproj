@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SupportBackScript.cs" />
+    <Compile Include="Assets\Scripts\SupportBackScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Kenny/OneDrive - UW-Madison/CS 407/Drive360/UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
