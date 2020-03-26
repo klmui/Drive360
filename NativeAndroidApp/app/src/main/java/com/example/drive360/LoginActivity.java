@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -31,10 +32,10 @@ public class LoginActivity extends AppCompatActivity {
             if (checkCredentials(username, password)) {
                 goToMainScreen(username);
             } else {
-
+                Toast.makeText(LoginActivity.this, "Invalid credentials. Please try again!", Toast.LENGTH_LONG).show();
             }
         } else {
-
+            Toast.makeText(LoginActivity.this, "Invalid input. Please try again!", Toast.LENGTH_LONG).show();
         }
     }
 
