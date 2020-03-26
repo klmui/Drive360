@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.12399509, g: 0.2210474, b: 0.4026344, a: 1}
+  m_IndirectSpecularColor: {r: 0.123483755, g: 0.22038257, b: 0.40156022, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -196,7 +196,9 @@ PrefabInstance:
     - target: {fileID: 1444071330318213177, guid: 9989a2fc637e0ed4aa6b10b11002e67c,
         type: 3}
       propertyPath: m_Text
-      value: Snow
+      value: 'Parallel
+
+        Parking'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9989a2fc637e0ed4aa6b10b11002e67c, type: 3}
