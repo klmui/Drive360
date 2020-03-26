@@ -14,12 +14,8 @@
         android:targetPackage="com.unity3d.player.test" />
 
     <uses-feature android:glEsVersion="0x00030000" />
-    <uses-feature
-        android:name="android.hardware.vulkan.version"
-        android:required="false" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:name="android.hardware.touchscreen"
@@ -41,14 +37,10 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="landscape"
             android:theme="@style/UnityThemeSelector" >
 
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- <category android:name="com.google.intent.category.CARDBOARD" /> -->
-            <!-- </intent-filter> -->
+            <!-- git -->
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
@@ -71,7 +63,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="08de2860-e844-4d69-bdbe-f1473238f86f" />
+            android:value="ee3f133d-9f4d-41a0-b794-de4ca6b5964b" />
     </application>
 
 </manifest>

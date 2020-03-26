@@ -2,6 +2,9 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Login" />
-    <item android:title="Register" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never">
+    </item>
 </menu>
