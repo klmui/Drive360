@@ -67,7 +67,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.70"
         android:text="@string/register_redirect"
         android:backgroundTint="@android:color/white"
         android:onClick="goToRegister"

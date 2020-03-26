@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -18,7 +19,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     // Log the user in.
-    public void login(View view) {
+    public void register(View view) {
         // Get username and password.
         EditText usernameInput = findViewById(R.id.usernameInput);
         String username = usernameInput.getText().toString();
@@ -31,10 +32,10 @@ public class RegisterActivity extends AppCompatActivity {
             if (checkUniqueUsername(username)) {
                 goToMainScreen(username, password);
             } else {
-
+                Toast.makeText(RegisterActivity.this, "Username already taken. Please try another one!", Toast.LENGTH_LONG).show();
             }
         } else {
-
+            Toast.makeText(RegisterActivity.this, "Invalid input. Please try again!", Toast.LENGTH_LONG).show();
         }
     }
 
