@@ -29,7 +29,18 @@ The application will be built with VR technology, programmed on Unity and its fr
 
 ## Wireframes
 
-Coming soon.
+<img src="Images/image3.png" width="450" height="250">
+
+<img src="Images/image2.png" width="450" height="250">
+
+<img src="Images/image5.png" width="450" height="250">
+
+<img src="Images/image4.png" width="450" height="250">
+
+<img src="Images/image6.png" width="450" height="250">
+
+<img src="Images/image1.png" width="450" height="250">
+
 
 ## VR Wireframes Description
 
@@ -72,8 +83,6 @@ Coming soon.
     -   Set up the home page like the wireframe above.
     
 
-  
-
 ## Milestone 2 (Due March 29th)
 
 -   Unity:
@@ -100,8 +109,6 @@ Coming soon.
     -   Add driving manuals to the learn section.
     
 
-  
-
 ## Milestone 3 (Due April 12th)
 
 -   Unity:
@@ -119,8 +126,6 @@ Coming soon.
     
     -   Create tests for the “Tests” portion of the app and present their score at the end.
     
-
-  
 
 ## Milestone 4 (Due April 26th)
 
@@ -146,3 +151,41 @@ Coming soon.
     -   Prepare for demo.
     
     -   Optional: allow users to share their scores on social media.
+
+
+## Contribution Guidelines
+
+- Make sure you have Git LFS installed and set up if you are a developer since the videos take up a lot of space and GitHub is not happy with it.
+
+    - Run: "git lfs track '*.mp4' in GitBash (working directory is the project).
+
+    - Run "git lfs track" to make sure mp4 files are being tracked.
+
+    - Run "git lfs ls-files" to make sure the correct video files are tracked.
+
+    - If GitHub doesn't let you push still, refer to git lfs migrate import.
+
+- Open up the corresponding AndroidNativeApp or UnityProject folder in either Android Studio or Unity.
+
+- Make a branch when you want to add, commit, or push code in the Android portion. If you're working in Unity, working in master is fine since we want to avoid any merge conflicts with Unity.
+
+- After that, test your changes in the emulator or an Android device. **Note that Unity will not run in the emulator.**
+
+- Push your code out to your branch and make a pull request.
+
+- Have at least one other teammate review your code before merging.
+
+- Have fun!
+
+
+## Running and Testing
+
+- Make sure you have Git LFS installed and set up if you are a developer since the videos take up a lot of space and GitHub is not happy with it.
+
+- To run the full app as a developer, make sure you have the videos.
+
+    - Go on this repository -> UnityProject -> assests -> videos and for each video, click "View Raw" to download the video.
+
+    - Next, copy and paste each video into your local videos directory and you should be all set to go to run the full application.
+
+- This application will hopefully get pushed to the Play Store by the end of April or early May.
