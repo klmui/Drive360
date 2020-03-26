@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
 
         boolean isAuthenticated = sharedPreferences.getBoolean("isAuthenticated", false);
-        String username = sharedPreferences.getString("username", "");
-        if (isAuthenticated && username != null && !username.equals("")) {
+        if (isAuthenticated) {
             setContentView(R.layout.activity_main);
         } else {
             goToLoginScreen();
