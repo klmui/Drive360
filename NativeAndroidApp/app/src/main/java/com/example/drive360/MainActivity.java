@@ -11,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private void checkAuthentication () {
         SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
 
+        // Check if user is authenticated.
         boolean isAuthenticated = sharedPreferences.getBoolean("isAuthenticated", false);
         if (isAuthenticated) {
             setContentView(R.layout.activity_main);
@@ -61,6 +61,20 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
+
+        // Get username and set text of menu item to welcome user.
+        String username = sharedPreferences.getString("username", "");
+        if (username != null && !username.equals("")) {
+            MenuItem item = menu.findItem(R.id.welcome);
+            item.setTitle("Welcome " + username);
+        }
+
+        return super.onPrepareOptionsMenu(menu);
     }
 
     public void btnLoadUnity(View v) {
