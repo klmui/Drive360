@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Drive360</string>
+    <string name="register_heading">Create a new account</string>
+    <string name="login_heading">Sign in to your account</string>
+    <string name="register_redirect">Doesn\'t have an account? Join us!</string>
+    <string name="login_redirect">Already have an account? Login!</string>
     <string name="game_view_content_description">Game view</string>
 </resources>
