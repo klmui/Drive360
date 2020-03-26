@@ -90,8 +90,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\libs\libprotobuf-java-nano.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\libs\unity-classes.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\libs\libprotobuf-java-nano.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\libs\unity-classes.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: :gvr:@aar" level="project" />
     <orderEntry type="library" name="Gradle: :unitygvr:@aar" level="project" />
   </component>
