@@ -64,7 +64,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LookAround.cs" />
+    <Compile Include="Assets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\Scripts\SupportBackScript.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\CanvasFaceCamera.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\Reticle.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VR2DButtonController.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VRCalloutController.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VRCameraUI.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VRDeviceManager.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VREyeRaycaster.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VRFPSCounter.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VRInput.cs" />
+    <Compile Include="Assets\VR Standard Assets\Scripts\VRInteractiveItem.cs" />
+    <None Include="Assets\VR Standard Assets\Shaders\UIOverlay.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
