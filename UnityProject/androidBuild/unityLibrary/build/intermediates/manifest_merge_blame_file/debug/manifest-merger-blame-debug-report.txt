@@ -8,100 +8,100 @@
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
-10-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+10-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 11        android:targetSdkVersion="28" />
-11-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+11-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 12
 13    <uses-feature android:glEsVersion="0x00030000" />
-13-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:3-52
-13-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:17-49
+13-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:3-52
+13-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:17-49
 14
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-78
-15-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:20-75
+15-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-78
+15-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:20-75
 16
 17    <uses-feature
-17-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-88
+17-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-88
 18        android:name="android.hardware.touchscreen"
-18-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:17-60
+18-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:17-60
 19        android:required="false" />
-19-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:61-85
+19-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:61-85
 20    <uses-feature
-20-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-99
+20-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-99
 21        android:name="android.hardware.touchscreen.multitouch"
-21-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:17-71
+21-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:17-71
 22        android:required="false" />
-22-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:72-96
+22-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:72-96
 23    <uses-feature
-23-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-108
+23-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-108
 24        android:name="android.hardware.touchscreen.multitouch.distinct"
-24-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-80
+24-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-80
 25        android:required="false" />
-25-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:81-105
+25-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:81-105
 26
 27    <application android:theme="@style/VrActivityTheme" >
-27-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-15:17
-27-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-54
+27-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-15:17
+27-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-54
 28        <activity
-28-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-9:16
+28-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-9:16
 29            android:name="com.unity3d.player.UnityPlayerActivity"
-29-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+29-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 30            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-30-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:181-362
+30-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:181-362
 31            android:hardwareAccelerated="false"
-31-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:363-398
+31-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:363-398
 32            android:launchMode="singleTask"
-32-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:149-180
+32-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:149-180
 33            android:screenOrientation="landscape"
-33-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-148
+33-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-148
 34            android:theme="@style/UnityThemeSelector" >
-34-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+34-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 35
 36            <!-- git -->
 37            <meta-data
-37-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-82
+37-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-82
 38                android:name="unityplayer.UnityActivity"
-38-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-58
+38-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-58
 39                android:value="true" />
-39-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:59-79
+39-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:59-79
 40            <meta-data
-40-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:7-78
+40-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:7-78
 41                android:name="android.notch_support"
-41-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:18-54
+41-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:18-54
 42                android:value="true" />
-42-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:55-75
+42-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:55-75
 43        </activity>
 44
 45        <meta-data
-45-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
+45-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
 46            android:name="unityplayer.SkipPermissionsDialog"
-46-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
+46-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
 47            android:value="true" />
-47-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
+47-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
 48        <meta-data
-48-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+48-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
 49            android:name="unity.splash-mode"
-49-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+49-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
 50            android:value="0" />
-50-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+50-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
 51        <meta-data
-51-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-75
+51-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-75
 52            android:name="unity.splash-enable"
-52-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+52-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
 53            android:value="False" />
-53-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-72
+53-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-72
 54        <meta-data
-54-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+54-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
 55            android:name="notch.config"
-55-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+55-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
 56            android:value="portrait|landscape" />
-56-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+56-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
 57        <meta-data
-57-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
+57-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
 58            android:name="unity.build-id"
-58-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
+58-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
 59            android:value="ee3f133d-9f4d-41a0-b794-de4ca6b5964b" />
-59-->C:\Users\Kenny\OneDrive - UW-Madison\CS 407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
+59-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
 60    </application>
 61
 62</manifest>
