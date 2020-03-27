@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235152744146",
+    "firebase_url": "https://drive360-35397.firebaseio.com",
+    "project_id": "drive360-35397",
+    "storage_bucket": "drive360-35397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235152744146:android:077da1ff0fab5c507f970b",
+        "android_client_info": {
+          "package_name": "com.example.drive360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235152744146-8lbvej6unk5dt2upfuslp6evl59f8q5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drive360",
+            "certificate_hash": "5d6633abf2d88f76fb5f905a8ff9b2fbcefff6af"
+          }
+        },
+        {
+          "client_id": "235152744146-eqrk5k9q7kfcq7rs881dpfegakoe2k4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHP0e70Ebev_MJJoRmuCM_38UgIaQGorQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235152744146-eqrk5k9q7kfcq7rs881dpfegakoe2k4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
