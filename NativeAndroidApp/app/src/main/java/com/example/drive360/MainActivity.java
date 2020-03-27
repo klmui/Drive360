@@ -25,8 +25,6 @@ import static com.example.drive360.App.CHANNEL_1_ID;
 
 public class MainActivity extends AppCompatActivity {
 
-    private NotificationManagerCompat notificationManager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,42 +91,26 @@ public class MainActivity extends AppCompatActivity {
         return super.onPrepareOptionsMenu(menu);
     }
 
+    /**
+     * Reminds user every Monday at 9am to learn
+     */
     public void alarm() {
-        System.out.println("Alarm");
-        Calendar calendar = Calendar.getInstance();
+        // Use calendar and alarm manager to set up recurring notifications
+        Calendar alarmTime = Calendar.getInstance();
+        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
-        calendar.set(Calendar.HOUR_OF_DAY, 1);
-        calendar.set(Calendar.MINUTE, 11);
-        calendar.set(Calendar.SECOND, 0);
+        // Set up time to remind user
+        alarmTime.set(Calendar.HOUR, 9);
+        alarmTime.set(Calendar.MINUTE, 0);
+        alarmTime.set(Calendar.SECOND, 0);
+        alarmTime.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
 
         Intent broadcastIntent = new Intent(this, NotificationReceiver.class);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 100, broadcastIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-        // Makes sure alarm will occur even in sleep mode (1st arg)
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
+        // Makes sure alarm will fire and wake up screen (1st arg)
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, alarmTime.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 7, pendingIntent);
     }
-
-//    public void testNotif(View v) {
-//        System.out.println("BUTTON CLICKED");
-////        Intent broadcastIntent = new Intent(this, NotificationReceiver.class);
-////        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 100, broadcastIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-//
-//        notificationManager = NotificationManagerCompat.from(this);
-//
-//        // Notification sent on channel 1 to remind user to learn
-//        Notification notification = new NotificationCompat.Builder(this, CHANNEL_1_ID)
-//                .setSmallIcon(R.drawable.ic_directions_car_black_24dp)
-//                .setContentTitle("Drive360")
-//                .setContentText("This is a friendly reminder to keep up the good work!")
-//                .setPriority(NotificationCompat.PRIORITY_HIGH)
-//                .setCategory(NotificationCompat.CATEGORY_MESSAGE)
-//                .setColor(Color.BLUE)
-//                .setAutoCancel(true) // Dismisses message after clicked
-//                .build();
-//
-//        notificationManager.notify(1, notification);
-//    }
 
     public void btnLoadUnity(View v) {
         Intent intent = new Intent(this, MainUnityActivity.class);

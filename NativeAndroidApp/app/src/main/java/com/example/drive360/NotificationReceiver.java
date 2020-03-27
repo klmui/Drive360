@@ -15,9 +15,14 @@ import static com.example.drive360.App.CHANNEL_1_ID;
 
 public class NotificationReceiver extends BroadcastReceiver {
 
+    /**
+     * Notification to remind user to learn
+     *
+     * @param context
+     * @param intent
+     */
     @Override
     public void onReceive(Context context, Intent intent) {
-        System.out.println("ENTERED ON RECIEVE");
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         Intent repeating_intent = new Intent(context, MainActivity.class);
