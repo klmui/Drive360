@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "2,4,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,155,293",
+                        "endLines": "3,6,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "150,288,515"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "2,4,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,155,293",
+                        "endLines": "3,6,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "150,288,515"
+                    }
+                }
+            ]
+        }
+    ]
+}
