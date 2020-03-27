@@ -52,10 +52,10 @@
         app:layout_constraintVertical_bias="0.094" />
 
     <RatingBar
-        android:id="@+id/rating"
+        android:id="@+id/feedbackRating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:isIndicator="true"
+        android:isIndicator="false"
         android:numStars="5"
         android:stepSize="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,5 +64,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/feedbackMessage"
         app:layout_constraintVertical_bias="0.197" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submitFeedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackRating"
+        app:layout_constraintVertical_bias="0.1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
