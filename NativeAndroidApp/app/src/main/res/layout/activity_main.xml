@@ -47,6 +47,7 @@
         android:id="@+id/button3"
         android:layout_width="196dp"
         android:layout_height="85dp"
+        android:onClick="testNotif"
         android:text="Learn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
