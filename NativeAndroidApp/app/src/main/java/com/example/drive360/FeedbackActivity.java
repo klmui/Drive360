@@ -6,14 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -21,7 +19,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class FeedbackActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener, ValueEventListener {
@@ -97,14 +94,12 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
         float rating = ratingBar.getRating();
 
 //        String key = firebaseDB.child("feedbacks").push().getKey();
-//        Feedback feedback = new Feedback(username, category, message, rating);
-//        Map<String, Object> feedbackValues = feedback.toMap();
+        Feedback feedback = new Feedback(username, category, message, rating);
+        Map<String, Object> feedbackValues = feedback.toMap();
 
 //        Map<String, Object> childUpdates = new HashMap<>();
 //        childUpdates.put("/feedbacks/" + key, feedbackValues);
-        Log.e("username for firebase", username);
-        DatabaseReference fbRef = feedbackRef.child("abc");
-        fbRef.setValue(username);
+        rootRef.setValue(feedbackValues);
     }
 
     @Override
