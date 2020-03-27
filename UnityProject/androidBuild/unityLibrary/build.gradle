@@ -5,8 +5,6 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation(name: 'gvr', ext:'aar')
-    implementation(name: 'unitygvr', ext:'aar')
 }
 
 android {
@@ -22,10 +20,10 @@ android {
         minSdkVersion 19
         targetSdkVersion 28
         ndk {
-            abiFilters 'armeabi-v7a', 'arm64-v8a'
+            abiFilters 'armeabi-v7a'
         }
         versionCode 1
-        versionName '0.1'
+        versionName '1.0'
         consumerProguardFiles 'proguard-unity.txt'
     }
 
@@ -39,7 +37,6 @@ android {
 
     packagingOptions {
         doNotStrip '*/armeabi-v7a/*.so'
-        doNotStrip '*/arm64-v8a/*.so'
     }
 }
 

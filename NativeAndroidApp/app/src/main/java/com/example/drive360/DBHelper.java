@@ -14,7 +14,7 @@ public class DBHelper {
 
     public void createQuestionTable() {
         sqLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS questions "
-                + "(id INTEGER PRIMARY KEY, category TEXT, title TEXT, correctAnswer TEXT, "
+                + "(id INTEGER PRIMARY KEY, questionSet TEXT, title TEXT, correctAnswer TEXT, "
                 + "choice1 TEXT, choice2 TEXT, choice3 TEXT, choice4 TEXT)");
     }
 
@@ -26,7 +26,7 @@ public class DBHelper {
         Cursor c = sqLiteDatabase.rawQuery(
                 String.format("SELECT * from questions"), null);
 
-        int categoryIndex = c.getColumnIndex("category");
+        int questionSetIndex = c.getColumnIndex("questionSet");
         int titleIndex = c.getColumnIndex("title");
         int correctAnswerIndex = c.getColumnIndex("correctAnswer");
         int choice1Index = c.getColumnIndex("choice1");
@@ -39,7 +39,7 @@ public class DBHelper {
         ArrayList<Question> questions = new ArrayList<Question>();
 
         while (!c.isAfterLast()) {
-            String category = c.getString(categoryIndex);
+            String questionSet = c.getString(questionSetIndex);
             String title = c.getString(titleIndex);
             String correctAnswer = c.getString(correctAnswerIndex);
             String[] answerChoices = {
@@ -49,7 +49,7 @@ public class DBHelper {
                     c.getString(choice4Index)
             };
 
-            Question question = new Question(category, title, correctAnswer, answerChoices);
+            Question question = new Question(questionSet, title, correctAnswer, answerChoices);
             questions.add(question);
             c.moveToNext();
         }
@@ -59,10 +59,10 @@ public class DBHelper {
         return questions;
     }
 
-    public ArrayList<Question> getQuestionsByCategory(String category) {
+    public ArrayList<Question> getQuestionsByQuestionSet(String questionSet) {
         createQuestionTable();
         Cursor c = sqLiteDatabase.rawQuery(
-                String.format("SELECT * from questions where category like '%s'", category), null);
+                String.format("SELECT * from questions where questionSet like '%s'", questionSet), null);
 
         int titleIndex = c.getColumnIndex("title");
         int correctAnswerIndex = c.getColumnIndex("correctAnswer");
@@ -85,7 +85,7 @@ public class DBHelper {
                     c.getString(choice4Index)
             };
 
-            Question question = new Question(category, title, correctAnswer, answerChoices);
+            Question question = new Question(questionSet, title, correctAnswer, answerChoices);
             questions.add(question);
             c.moveToNext();
         }
@@ -95,13 +95,13 @@ public class DBHelper {
         return questions;
     }
 
-    public void createQuestion(String category, String title, String correctAnswer, String[] answerChoices) {
+    public void createQuestion(String questionSet, String title, String correctAnswer, String[] answerChoices) {
         createQuestionTable();
         sqLiteDatabase.execSQL(
-                String.format("INSERT INTO questions (category, title, correctAnswer, " +
+                String.format("INSERT INTO questions (questionSet, title, correctAnswer, " +
                                 "choice1, choice2, choice3, choice4) " +
                                 "VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s')",
-                        category, title, correctAnswer,
+                        questionSet, title, correctAnswer,
                         answerChoices[0], answerChoices[1], answerChoices[2], answerChoices[3]));
     }
 }
