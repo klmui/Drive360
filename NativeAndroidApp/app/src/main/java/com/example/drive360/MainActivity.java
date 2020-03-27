@@ -82,6 +82,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // Transition to feedback screen.
+    public void goToFeedbackScreen(View view) {
+        Intent intent = new Intent(this, FeedbackActivity.class);
+        startActivity(intent);
+    }
+
 //    @Override
 //    public void onBackPressed() {
 //        finishAffinity();
