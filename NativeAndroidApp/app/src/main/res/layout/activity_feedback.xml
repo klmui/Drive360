@@ -17,14 +17,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.07" />
 
 
     <Spinner
         android:id="@+id/feedbackCategory"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:background="#ccc"
+        android:background="#eee"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +63,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/feedbackMessage"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <Button
         android:id="@+id/submitButton"
