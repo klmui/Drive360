@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.RatingBar;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -38,7 +39,6 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
     public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
         switch (position) {
             case 0:
-                Toast.makeText(this, "Please select a feedback category!", Toast.LENGTH_LONG).show();
                 break;
             case 1:
                 // Whatever you want to happen when the second item gets selected
@@ -51,5 +51,11 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+    }
+
+    public void submitFeedback(View v) {
+        RatingBar ratingBar = findViewById(R.id.feedbackRating);
+        int stars = ratingBar.getNumStars();
+        float rating = ratingBar.getRating();
     }
 }
