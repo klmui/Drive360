@@ -13,10 +13,7 @@
         android:label="Tests for com.unity3d.player.test"
         android:targetPackage="com.unity3d.player.test" />
 
-    <uses-feature android:glEsVersion="0x00030000" />
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
+    <uses-feature android:glEsVersion="0x00020000" />
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -27,9 +24,7 @@
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
 
-    <application
-        android:debuggable="true"
-        android:theme="@style/VrActivityTheme" >
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
 
         <activity
@@ -37,10 +32,13 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="landscape"
+            android:screenOrientation="fullSensor"
             android:theme="@style/UnityThemeSelector" >
 
-            <!-- git -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
@@ -50,20 +48,17 @@
         </activity>
 
         <meta-data
-            android:name="unityplayer.SkipPermissionsDialog"
-            android:value="true" />
-        <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
         <meta-data
             android:name="unity.splash-enable"
-            android:value="False" />
+            android:value="True" />
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="ee3f133d-9f4d-41a0-b794-de4ca6b5964b" />
+            android:value="512a982c-9f4c-4a7a-9ff6-e7e0078fa75a" />
     </application>
 
 </manifest>
