@@ -15,6 +15,8 @@ import static com.example.drive360.App.CHANNEL_1_ID;
 
 public class NotificationReceiver extends BroadcastReceiver {
 
+    private NotificationManager notificationManager;
+
     /**
      * Notification to remind user to learn
      *
@@ -23,7 +25,8 @@ public class NotificationReceiver extends BroadcastReceiver {
      */
     @Override
     public void onReceive(Context context, Intent intent) {
-        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        System.out.println("ENTERED");
+        notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         Intent repeating_intent = new Intent(context, MainActivity.class);
         // Remove previous instance
