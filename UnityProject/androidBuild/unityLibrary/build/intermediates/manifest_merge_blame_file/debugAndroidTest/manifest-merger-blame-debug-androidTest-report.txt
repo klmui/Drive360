@@ -3,6 +3,26 @@
 3    package="com.unity3d.player.test" >
 4
 5    <uses-sdk
+<<<<<<< HEAD
+5-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:11:5-15:73
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:13:22-53
+13        android:label="Tests for com.unity3d.player.test"
+13-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:15:22-71
+14        android:targetPackage="com.unity3d.player.test" />
+14-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:12:22-69
+=======
 5-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:5:5-74
 6        android:minSdkVersion="19"
 6-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:5:15-41
@@ -21,6 +41,7 @@
 13-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:15:22-71
 14        android:targetPackage="com.unity3d.player.test" />
 14-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:12:22-69
+>>>>>>> master
 15
 16    <uses-feature android:glEsVersion="0x00020000" />
 16-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-54
@@ -45,11 +66,19 @@
 25-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
 26
 27    <application android:debuggable="true" >
+<<<<<<< HEAD
+27-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:7:5-9:19
+27-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:7:18-43
+28        <uses-library android:name="android.test.runner" />
+28-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:8:9-60
+28-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:8:23-57
+=======
 27-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:7:5-9:19
 27-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:7:18-43
 28        <uses-library android:name="android.test.runner" />
 28-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:8:9-60
 28-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:8:23-57
+>>>>>>> master
 29
 30        <activity
 30-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-43:20
