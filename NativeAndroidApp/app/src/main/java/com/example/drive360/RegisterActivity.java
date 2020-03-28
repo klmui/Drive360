@@ -86,7 +86,7 @@ public class RegisterActivity extends AppCompatActivity {
         sharedPreferences.edit().putBoolean("isAuthenticated", true).apply();
         sharedPreferences.edit().putString("username", username).apply();
 
-        userRef.child(username).setValue(true);
+        userRef.child(username).setValue(false);
 
         // Redirect the user to main screen.
         Intent intent = new Intent(this, MainActivity.class);
