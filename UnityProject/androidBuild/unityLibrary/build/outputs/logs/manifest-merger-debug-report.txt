@@ -1,5 +1,14 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+=======
 ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
 INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
 INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
@@ -7,39 +16,119 @@ INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\android
 INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
 INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
 INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
+>>>>>>> master
 	package
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:70-98
-		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:70-98
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	android:versionName
+<<<<<<< HEAD
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+=======
 		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
 		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+>>>>>>> master
 	xmlns:tools
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:99-145
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:99-145
 	android:versionCode
+<<<<<<< HEAD
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-22:12
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+=======
 		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-25:12
 		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+>>>>>>> master
 	xmlns:android
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:11-69
 application
+<<<<<<< HEAD
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-17:17
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-12:16
+=======
 ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-19:17
 	android:theme
 		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-54
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-13:16
+>>>>>>> master
 	android:screenOrientation
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
 	android:launchMode
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
 	android:hardwareAccelerated
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
 	android:configChanges
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
 	android:theme
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 	android:name
+<<<<<<< HEAD
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+meta-data#unityplayer.UnityActivity
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+	android:value
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+meta-data#android.notch_support
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+	android:value
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+meta-data#unity.splash-mode
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+	android:value
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+meta-data#unity.splash-enable
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+	android:value
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+meta-data#notch.config
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+	android:value
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+meta-data#unity.build-id
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:5-101
+	android:value
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:46-98
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:16-45
+uses-feature#0x00020000
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-52
+	android:glEsVersion
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:17-49
+uses-feature#android.hardware.touchscreen
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-88
+	android:required
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:61-85
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-99
+	android:required
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:72-96
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-108
+	android:required
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:81-105
+	android:name
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:17-80
+=======
 		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.google.intent.category.CARDBOARD
 ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-10:23
@@ -123,17 +212,18 @@ ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBui
 		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:24:81-105
 	android:name
 		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:24:17-80
+>>>>>>> master
 uses-sdk
-INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml

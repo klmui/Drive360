@@ -54,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // Transition to admin dashboard screen.
+    public void goToAdminDashboardScreen() {
+        Intent intent = new Intent(this, AdminDashboardActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -73,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
             // Redirect the user to login screen.
             goToLoginScreen();
             return true;
+        } else if (item.getItemId() == R.id.admin_dashboard) {
+            goToAdminDashboardScreen();
         }
 
         return super.onOptionsItemSelected(item);
@@ -87,6 +95,11 @@ public class MainActivity extends AppCompatActivity {
         if (username != null && !username.equals("")) {
             MenuItem item = menu.findItem(R.id.welcome);
             item.setTitle("Welcome " + username);
+        }
+
+        boolean isAdmin = sharedPreferences.getBoolean("isAdmin", false);
+        if (!isAdmin) {
+            menu.findItem(R.id.admin_dashboard).setVisible(false);
         }
 
         return super.onPrepareOptionsMenu(menu);

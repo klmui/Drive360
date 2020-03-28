@@ -8,6 +8,11 @@
         app:showAsAction="never">
     </item>
     <item
+        android:id="@+id/admin_dashboard"
+        android:title="Admin Dashboard"
+        app:showAsAction="never">
+    </item>
+    <item
         android:id="@+id/logout"
         android:title="Logout"
         app:showAsAction="never">
