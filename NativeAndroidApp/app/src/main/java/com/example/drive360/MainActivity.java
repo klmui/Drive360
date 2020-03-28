@@ -81,6 +81,21 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainUnityActivity.class);
         startActivity(intent);
     }
+    public void goToTest(String user){
+        Intent intent = new Intent(this, TestPage.class);
+        intent.putExtra("message", user);
+        startActivity(intent);
+
+    }
+    public void onTestClicked(View view) {
+        SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
+        if (!sharedPreferences.getString("username", "").equals("")) {
+            String userName = sharedPreferences.getString("username", "");
+            Intent intent = new Intent(this, TestPage.class);
+            intent.putExtra("message", userName);
+            startActivity(intent);
+        }
+    }
 
 //    @Override
 //    public void onBackPressed() {
