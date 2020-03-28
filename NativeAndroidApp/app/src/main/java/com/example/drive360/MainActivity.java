@@ -89,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
             item.setTitle("Welcome " + username);
         }
 
+        boolean isAdmin = sharedPreferences.getBoolean("isAdmin", false);
+        if (!isAdmin) {
+            menu.findItem(R.id.admin_dashboard).setVisible(false);
+        }
+
         return super.onPrepareOptionsMenu(menu);
     }
 
