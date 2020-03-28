@@ -82,8 +82,9 @@ public class RegisterActivity extends AppCompatActivity {
         // Save username and password.
         sharedPreferences.edit().putString(username, password).apply();
 
-        // Set isAuthenticated to true and pass in username for main screen.
+        // Set isAuthenticated to true, isAdmin to false and pass in username for main screen.
         sharedPreferences.edit().putBoolean("isAuthenticated", true).apply();
+        sharedPreferences.edit().putBoolean("isAdmin", false).apply();
         sharedPreferences.edit().putString("username", username).apply();
 
         userRef.child(username).setValue(false);
