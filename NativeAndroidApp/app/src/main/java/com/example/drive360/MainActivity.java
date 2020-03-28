@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
             int dayDiffBetweenClosestMonday = (7 + now.get(Calendar.DAY_OF_WEEK) - alarmTime.get(Calendar.DAY_OF_WEEK)) % 7;
 
             if (dayDiffBetweenClosestMonday == 0) {
-                // Today is Friday, but current time after 9am, so schedule for the next Friday
+                // Today is Monday, but current time after 9am, so schedule for the next Monday
                 dayDiffBetweenClosestMonday = 7;
             }
 
@@ -145,12 +145,13 @@ public class MainActivity extends AppCompatActivity {
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
         // Makes sure alarm will fire and wake up screen (1st arg)
-        alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, alarmTime.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, alarmTime.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
     }
 
     public void btnLoadUnity(View v) {
         Intent intent = new Intent(this, MainUnityActivity.class);
-        startActivity(intent);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivityForResult(intent, 1);
     }
 
     // Transition to feedback screen.
