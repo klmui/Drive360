@@ -2,15 +2,27 @@ package com.example.drive360;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
+import android.app.AlarmManager;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+
+import java.util.Calendar;
+
+import static com.example.drive360.App.CHANNEL_1_ID;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         checkAuthentication();
+
+        // Set up weekly notifications
+        alarm();
     }
 
     // Check if user is authenticate/login.
@@ -75,6 +90,49 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onPrepareOptionsMenu(menu);
+    }
+
+    /**
+     * Reminds user every Monday at 9am to learn
+     */
+    public void alarm() {
+        // Use calendar and alarm manager to set up recurring notifications
+        Calendar alarmTime = Calendar.getInstance();
+
+        // Set up time to remind user
+        alarmTime.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
+        alarmTime.set(Calendar.HOUR_OF_DAY, 9);
+        alarmTime.set(Calendar.MINUTE, 0);
+        alarmTime.set(Calendar.SECOND, 0);
+
+        Calendar now = Calendar.getInstance();
+        now.set(Calendar.SECOND, 0);
+        now.set(Calendar.MILLISECOND, 0);
+
+        // Check if it in the future
+        if (now.getTimeInMillis() <  alarmTime.getTimeInMillis()) {
+            // Nothing to do - time of alarm in the future
+        } else {
+            int dayDiffBetweenClosestMonday = (7 + now.get(Calendar.DAY_OF_WEEK) - alarmTime.get(Calendar.DAY_OF_WEEK)) % 7;
+
+            if (dayDiffBetweenClosestMonday == 0) {
+                // Today is Friday, but current time after 9am, so schedule for the next Friday
+                dayDiffBetweenClosestMonday = 7;
+            }
+
+            alarmTime.add(Calendar.DAY_OF_MONTH, dayDiffBetweenClosestMonday);
+        }
+
+        // This id is used to set multiple alarms
+        final int _id = (int) System.currentTimeMillis();
+
+        Intent broadcastIntent = new Intent(this, NotificationReceiver.class);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, _id, broadcastIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+
+        // Makes sure alarm will fire and wake up screen (1st arg)
+        alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, alarmTime.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
     }
 
     public void btnLoadUnity(View v) {
