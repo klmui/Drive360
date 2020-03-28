@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -92,6 +93,8 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
             String id = feedbackRef.push().getKey();
             // Send data to feedbacks branch on Firebase.
             feedbackRef.child(id).setValue(feedbackValues);
+            // Redirect the user to main screen.
+            goToLoginScreen();
         }
     }
 
@@ -123,6 +126,12 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
             Toast.makeText(this, "Please make sure to select category, fill out the feedback and give us a rating!", Toast.LENGTH_LONG).show();
             return null;
         }
+    }
+
+    // Redirect the user to main screen.
+    public void goToLoginScreen() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     @Override
