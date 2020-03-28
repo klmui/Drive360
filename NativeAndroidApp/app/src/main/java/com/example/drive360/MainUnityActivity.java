@@ -5,22 +5,65 @@ import com.unity3d.player.UnityPlayerActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.FrameLayout;
 
-public class MainUnityActivity extends AppCompatActivity {
+import com.unity3d.player.UnityPlayerActivity;
+
+public class MainUnityActivity extends UnityPlayerActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_unity);
-        Intent intent = new Intent(this, UnityPlayerActivity.class);
+        addControlsToUnityFrame();
+        //Intent intent = new Intent(this, UnityPlayerActivity.class);
+        //startActivity(intent);
+    }
+
+    protected void showMainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
     }
 
-    // User quit Unity application
-//    @Override
-//    public void onDestroy() {
-//        super.onDestroy();
-//        Intent intent = new Intent(this, MainActivity.class);
-//        startActivity(intent);
-//    }
+    @Override
+    public void onUnityPlayerUnloaded() {
+        showMainActivity();
+    }
+
+    public void addControlsToUnityFrame() {
+        FrameLayout layout = mUnityPlayer;
+        // Not used because it will save battery if we unload the unity player activity and then show main
+//        {
+//            Button myButton = new Button(this);
+//            myButton.setText("Show Main");
+//            myButton.setX(10);
+//            myButton.setY(500);
+//
+//            myButton.setOnClickListener(new View.OnClickListener() {
+//                public void onClick(View v) {
+//                    showMainActivity();
+//                }
+//            });
+//            layout.addView(myButton, 300, 200);
+//        }
+
+        {
+            Button myButton = new Button(this);
+            myButton.setText("X");
+            myButton.setX(0);
+            myButton.setY(0);
+
+            myButton.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    // Closes the Unity app we hid from the user
+                    mUnityPlayer.unload();
+                }
+            });
+            layout.addView(myButton, 105, 105);
+        }
+
+    }
+
 }
