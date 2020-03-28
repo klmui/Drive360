@@ -76,6 +76,17 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
     }
 
     public void submitFeedback(View v) {
+        // Construct feedback from user inputs.
+        Feedback feedback = constructFeedback();
+        // Convert feedback to key-value pairs.
+        Map<String, Object> feedbackValues = feedback.toMap();
+        // Generate id;
+        String id = feedbackRef.push().getKey();
+        // Send data to feedbacks branch on Firebase.
+        feedbackRef.child(id).setValue(feedbackValues);
+    }
+
+    private Feedback constructFeedback() {
         SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
 
         // Get current user's username.
@@ -93,13 +104,9 @@ public class FeedbackActivity extends AppCompatActivity implements AdapterView.O
         RatingBar ratingBar = findViewById(R.id.feedbackRating);
         float rating = ratingBar.getRating();
 
-//        String key = firebaseDB.child("feedbacks").push().getKey();
+        // Construct feedback object.
         Feedback feedback = new Feedback(username, category, message, rating);
-        Map<String, Object> feedbackValues = feedback.toMap();
-
-//        Map<String, Object> childUpdates = new HashMap<>();
-//        childUpdates.put("/feedbacks/" + key, feedbackValues);
-        rootRef.setValue(feedbackValues);
+        return feedback;
     }
 
     @Override
