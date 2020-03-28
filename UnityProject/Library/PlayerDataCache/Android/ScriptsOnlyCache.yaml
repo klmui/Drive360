@@ -44,27 +44,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13520}
+      Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 13610}
+      Script: {instanceID: 11286}
     - Class: 114
-      Script: {instanceID: 13718}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 11436}
     - Class: 114
-      Script: {instanceID: 14104}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 14218}
+      Script: {instanceID: 11900}
     - Class: 114
-      Script: {instanceID: 14660}
+      Script: {instanceID: 12350}
     - Class: 114
-      Script: {instanceID: 14942}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 14976}
+      Script: {instanceID: 12672}
     - Class: 114
-      Script: {instanceID: 15292}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 15332}
+      Script: {instanceID: 13030}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -113,6 +113,10 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11436}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -625,4 +629,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/VR Lobby.unity
   - Assets/Scenes/Green Video Player.unity
-  playerPath: /Users/monicas/Documents/Drive360/UnityProject/androidBuild
+  playerPath: C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/androidBuild
