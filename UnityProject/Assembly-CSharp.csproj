@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LookAround.cs" />
+    <Compile Include="Assets\Scripts\LookAround.cs" />
     <Compile Include="Assets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\Scripts\SupportBackScript.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\CanvasFaceCamera.cs" />
