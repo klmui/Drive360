@@ -187,9 +187,9 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Score: 1 / 10'
+  m_Text: 'Score: 0 / 0'
 --- !u!222 &178519458
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -257,6 +257,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: True
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1517529490}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: handleAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224622154880137624, guid: 125698553302b3d4e8b4781f5d295b56,
         type: 3}
@@ -418,6 +438,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: False
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1517529490}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: handleAnswer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224622154880137624, guid: 125698553302b3d4e8b4781f5d295b56,
         type: 3}
