@@ -29,6 +29,9 @@ android {
             universalApk true
         }
     }
+    aaptOptions {
+        noCompress '.unity3d', '.ress', '.resource', '.obb'
+    }
 }
 
 dependencies {
