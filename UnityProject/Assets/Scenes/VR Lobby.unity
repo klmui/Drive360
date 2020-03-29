@@ -191,7 +191,7 @@ PrefabInstance:
     - target: {fileID: 1444071329109778270, guid: 9989a2fc637e0ed4aa6b10b11002e67c,
         type: 3}
       propertyPath: m_Name
-      value: Snow
+      value: Parallel Parking
       objectReference: {fileID: 0}
     - target: {fileID: 1444071330318213177, guid: 9989a2fc637e0ed4aa6b10b11002e67c,
         type: 3}
@@ -859,6 +859,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1575383329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1444071329109778270, guid: 9989a2fc637e0ed4aa6b10b11002e67c,
+    type: 3}
+  m_PrefabInstance: {fileID: 218260696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1575383330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575383329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56de925de31a1fa4e8af8e076bc06e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Green Video Player
+--- !u!114 &1575383331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575383329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d726ad499ea6bc649ac98048cc4b2538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1852427433
 GameObject:
   m_ObjectHideFlags: 0
