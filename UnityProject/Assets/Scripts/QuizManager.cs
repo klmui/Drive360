@@ -43,17 +43,23 @@ public class QuizManager : MonoBehaviour
         quiz = new Quiz();
         quiz.questions = new Question[2];
 
+        // Initialize each question
+        for (int i = 0; i < 2; i++)
+        {
+            quiz.questions[i] = new Question();
+        }
+
         quiz.questions[0].time = 3;
         quiz.questions[0].title = "What's up?";
         quiz.questions[0].correct = false;
 
-        quiz.questions[0].time = 8;
-        quiz.questions[0].title = "Is this correct?";
-        quiz.questions[0].correct = true;
+        quiz.questions[1].time = 8;
+        quiz.questions[1].title = "Is this correct?";
+        quiz.questions[1].correct = true;
 
         // Initiate showing questions process and play video
-        isShowingQuestions = true;
         player.Play();
+        isShowingQuestions = true;
     }
 
     // Update is called once per frame
