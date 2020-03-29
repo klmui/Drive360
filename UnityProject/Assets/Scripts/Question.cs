@@ -5,7 +5,7 @@ using UnityEngine;
 public class Question
 {
     // Time in seconds
-    public int time;
+    public float time;
 
     // Title of the question / test of the question
     public string title;

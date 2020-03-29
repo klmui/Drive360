@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\LookAround.cs" />
     <Compile Include="Assets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
+    <Compile Include="Assets\Scripts\Quiz.cs" />
+    <Compile Include="Assets\Scripts\QuizManager.cs" />
     <Compile Include="Assets\Scripts\SupportBackScript.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\CanvasFaceCamera.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\Reticle.cs" />
