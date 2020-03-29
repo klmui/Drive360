@@ -1,3 +1,4 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 UnityProject/androidBuild/unityLibrary/src/main/assets/bin/Data/*.resource filter=lfs diff=lfs merge=lfs -text
+UnityProject/androidBuild/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/sharedassets1.resource filter=lfs diff=lfs merge=lfs -text
 *.resource filter=lfs diff=lfs merge=lfs -text
