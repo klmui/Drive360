@@ -1,5 +1,7 @@
 # Drive 360
 
+This app is projected to get pushed to the Play Store by the end of April or early May.
+
 ## Team Members
 Kenneth Mui, [klmui@wisc.edu](mailto:klmui@wisc.edu), GitHub: klmui
 Monica Schmidt, [meschmidt@wisc.edu](mailto:meschmidt@wisc.edu), GitHub: monica22schmidt
@@ -8,7 +10,7 @@ Khoa Thien Le (Harry), [ktle4@wisc.edu](mailto:ktle4@wisc.edu), GitHub: khoa165
 
 ## Summary
 
-Drive 360 helps students in driver’s education classes learn the rules of driving by immersing them into interactive VR environments.
+Drive 360 helps students in driver’s education classes learn the rules of driving by immersing them into interactive VR environments. It also provides a mobile-platform for users to post tips, take practice exams, share practice sets, and learn.
 
 ## Abstract/Introduce App
 
@@ -29,17 +31,17 @@ The application will be built with VR technology, programmed on Unity and its fr
 
 ## Wireframes
 
-<img src="Images/image3.png" width="450" height="250">
+<img src="Images/wireframe1.png" width="500" height="250">
 
-<img src="Images/image2.png" width="450" height="250">
+<img src="Images/wireframe2.png" width="500" height="250">
 
-<img src="Images/image5.png" width="450" height="250">
+<img src="Images/wireframe3.png" width="500" height="250">
 
-<img src="Images/image4.png" width="450" height="250">
+<img src="Images/wireframe4.png" width="500" height="250">
 
-<img src="Images/image6.png" width="450" height="250">
+<img src="Images/wireframe5.png" width="500" height="250">
 
-<img src="Images/image1.png" width="450" height="250">
+<img src="Images/wireframe6.png" width="500" height="250">
 
 
 ## VR Wireframes Description
@@ -152,40 +154,24 @@ The application will be built with VR technology, programmed on Unity and its fr
     
     -   Optional: allow users to share their scores on social media.
 
+## Resources
 
-## Contribution Guidelines
+These are some of the resources I used when embedding a VR Unity app inside an Android application that has large assets. There were many issues so I hope this :) :
 
-- Make sure you have Git LFS installed and set up if you are a developer since the videos take up a lot of space and GitHub is not happy with it.
+- [Embedded Unity within Android App](https://medium.com/@davidbeloosesky/embedded-unity-within-android-app-7061f4f473a)
 
-    - Run: "git lfs track '*.mp4' in GitBash (working directory is the project).
+- [Integration Unity as a library in native Android app Version 2](https://forum.unity.com/threads/integration-unity-as-a-library-in-native-android-app-version-2.751712/)
 
-    - Run "git lfs track" to make sure mp4 files are being tracked.
+- The first two links have a section for comments which helped me solve some errors.
 
-    - Run "git lfs ls-files" to make sure the correct video files are tracked.
+- [Git LFS Tutorial (Migration + using Git LFS for already tracked asset)](https://github.com/git-lfs/git-lfs/wiki/Tutorial)
 
-    - If GitHub doesn't let you push still, refer to git lfs migrate import.
+- [Git Large File Storage - How to Work with Big Files](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)
 
-- Open up the corresponding AndroidNativeApp or UnityProject folder in either Android Studio or Unity.
+- [INSTALL_FAILED_NO_MATCHING_ABIS when install apk](https://stackoverflow.com/questions/24572052/install-failed-no-matching-abis-when-install-apk)
 
-- Make a branch when you want to add, commit, or push code in the Android portion. If you're working in Unity, working in master is fine since we want to avoid any merge conflicts with Unity.
+- [How to solve “libmain.so not found” while using Unity as a library in Android application with latest AndroidX Versions out of ReactNative](https://stackoverflow.com/questions/58877735/how-to-solve-libmain-so-not-found-while-using-unity-as-a-library-in-android-ap)
 
-- After that, test your changes in the emulator or an Android device. **Note that Unity will not run in the emulator.**
+- [Crashes on Android due to error "libmain.so not found"](https://github.com/f111fei/react-native-unity-view/issues/142#issuecomment-557162700)
 
-- Push your code out to your branch and make a pull request.
-
-- Have at least one other teammate review your code before merging.
-
-- Have fun!
-
-
-## Running and Testing
-
-- Make sure you have Git LFS installed and set up if you are a developer since the videos take up a lot of space and GitHub is not happy with it.
-
-- To run the full app as a developer, make sure you have the videos.
-
-    - Go on this repository -> UnityProject -> assests -> videos and for each video, click "View Raw" to download the video.
-
-    - Next, copy and paste each video into your local videos directory and you should be all set to go to run the full application.
-
-- This application will hopefully get pushed to the Play Store by the end of April or early May.
+- [Why is the Unity Video Player not working? (Video not playing in Android)](https://github.com/f111fei/react-native-unity-view/issues/77)
