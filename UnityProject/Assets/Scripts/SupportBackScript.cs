@@ -9,8 +9,12 @@ public class SupportBackScript: MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Application.platform == RuntimePlatform.Android)
-            if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
+        //if (Application.platform == RuntimePlatform.Android)
+        //    if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
 }
