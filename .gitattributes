@@ -3,3 +3,4 @@ UnityProject/androidBuild/unityLibrary/src/main/assets/bin/Data/*.resource filte
 UnityProject/androidBuild/unityLibrary/build/intermediates/library_assets/debug/out/bin/Data/sharedassets1.resource filter=lfs diff=lfs merge=lfs -text
 *./resource filter=lfs diff=lfs merge=lfs -text
 *.resource filter=lfs diff=lfs merge=lfs -text
+*.aar filter=lfs diff=lfs merge=lfs -text

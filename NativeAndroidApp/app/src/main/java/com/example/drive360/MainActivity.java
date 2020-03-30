@@ -160,8 +160,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-//    @Override
-//    public void onBackPressed() {
-//        finishAffinity();
-//    }
+    public void onTestClicked(View view) {
+        SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
+        if (!sharedPreferences.getString("username", "").equals("")) {
+            String userName = sharedPreferences.getString("username", "");
+            Intent intent = new Intent(this, TestPage.class);
+            intent.putExtra("message", userName);
+            startActivity(intent);
+        }
+    }
+
 }

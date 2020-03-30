@@ -2,4 +2,6 @@
 <resources>
     <style name="BaseUnityTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
 </style>
+    <style name="GvrDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+</style>
 </resources>

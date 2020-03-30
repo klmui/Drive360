@@ -156,7 +156,7 @@ The application will be built with VR technology, programmed on Unity and its fr
 
 ## Resources
 
-These are some of the resources I used when embedding a VR Unity app inside an Android application that has large assets. There were many issues so I hope this :) :
+These are some of the resources I used when embedding a VR Unity app inside an Android application that has large assets. There were many issues so I hope this helps :) :
 
 - [Embedded Unity within Android App](https://medium.com/@davidbeloosesky/embedded-unity-within-android-app-7061f4f473a)
 

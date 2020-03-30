@@ -10,62 +10,84 @@
         android:id="@+id/button5"
         android:layout_width="196dp"
         android:layout_height="85dp"
+        android:background="@drawable/rounded_white_button"
+        android:fontFamily="@font/arimo"
         android:onClick="btnLoadUnity"
         android:text="Drive"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="196dp"
         android:layout_height="85dp"
+        android:background="@drawable/rounded_white_button"
+        android:fontFamily="@font/arimo"
         android:text="Learn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.278" />
+        app:layout_constraintVertical_bias="0.303" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/testButton"
         android:layout_width="196dp"
         android:layout_height="85dp"
+        android:background="@drawable/rounded_white_button"
+        android:fontFamily="@font/arimo"
+        android:onClick="onTestClicked"
         android:text="Test"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.473" />
+        app:layout_constraintVertical_bias="0.508" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="196dp"
         android:layout_height="85dp"
+        android:background="@drawable/rounded_white_button"
+        android:fontFamily="@font/arimo"
         android:text="Tips"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.697" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="196dp"
         android:layout_height="85dp"
-        android:text="Feedback"
+        android:background="@drawable/rounded_white_button"
+        android:fontFamily="@font/arimo"
         android:onClick="goToFeedbackScreen"
+        android:text="Feedback"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862" />
+        app:layout_constraintVertical_bias="0.911" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="728dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/road" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
