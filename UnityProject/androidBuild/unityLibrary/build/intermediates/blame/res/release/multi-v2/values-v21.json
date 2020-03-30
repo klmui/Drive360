@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\build\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Kenny\\OneDrive - UW-Madison\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\build\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\Kenny\\.gradle\\caches\\transforms-2\\files-2.1\\190aa936a3c7a3cd3a2c643747ca3545\\jetified-gvr\\res\\values-v21\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "147",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "237"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "249"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kenny\\OneDrive - UW-Madison\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",
@@ -25,10 +44,29 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Kenny\\OneDrive - UW-Madison\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\khoat\\OneDrive\\Desktop\\Code\\AndroidStudio\\CS407\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\Kenny\\.gradle\\caches\\transforms-2\\files-2.1\\190aa936a3c7a3cd3a2c643747ca3545\\jetified-gvr\\res\\values-v21\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "147",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "237"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "249"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Kenny\\OneDrive - UW-Madison\\Drive360\\UnityProject\\androidBuild\\unityLibrary\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

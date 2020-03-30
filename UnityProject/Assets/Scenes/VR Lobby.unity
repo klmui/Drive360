@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 205631735}
   - component: {fileID: 205631734}
   m_Layer: 0
-  m_Name: Label (1)
+  m_Name: Instruction Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
