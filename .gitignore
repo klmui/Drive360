@@ -1,5 +1,5 @@
-UnityProject/unityLibrary/build/
-UnityProject/androidBuild/
+# UnityProject/unityLibrary/build/
+# UnityProject/androidBuild/
 google-services.json
 UnityProject/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
 # This .gitignore file should be placed at the root of your Unity project directory

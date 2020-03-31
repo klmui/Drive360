@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player.test" >
+4
+5    <uses-sdk
+<<<<<<< HEAD
+5-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:11:5-15:73
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:13:22-53
+13        android:label="Tests for com.unity3d.player.test"
+13-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:15:22-71
+14        android:targetPackage="com.unity3d.player.test" />
+14-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:12:22-69
+=======
+5-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:11:5-15:73
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:13:22-53
+13        android:label="Tests for com.unity3d.player.test"
+13-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:15:22-71
+14        android:targetPackage="com.unity3d.player.test" />
+14-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:12:22-69
+>>>>>>> master
+15
+16    <uses-feature android:glEsVersion="0x00020000" />
+16-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-54
+16-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-51
+17    <uses-feature
+17-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-16:36
+18        android:name="android.hardware.touchscreen"
+18-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-52
+19        android:required="false" />
+19-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+20    <uses-feature
+20-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-19:36
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-63
+22        android:required="false" />
+22-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-33
+23    <uses-feature
+23-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-72
+25        android:required="false" />
+25-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+26
+27    <application android:debuggable="true" >
+<<<<<<< HEAD
+27-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:7:5-9:19
+27-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:7:18-43
+28        <uses-library android:name="android.test.runner" />
+28-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:8:9-60
+28-->C:\Users\khoat\OneDrive\Desktop\Code\AndroidStudio\CS407\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2846116211179838783.xml:8:23-57
+=======
+27-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:7:5-9:19
+27-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:7:18-43
+28        <uses-library android:name="android.test.runner" />
+28-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:8:9-60
+28-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3936004514052584945.xml:8:23-57
+>>>>>>> master
+29
+30        <activity
+30-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-43:20
+31            android:name="com.unity3d.player.UnityPlayerActivity"
+31-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-66
+32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+32-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-194
+33            android:hardwareAccelerated="false"
+33-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-48
+34            android:launchMode="singleTask"
+34-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-44
+35            android:screenOrientation="fullSensor"
+35-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-51
+36            android:theme="@style/UnityThemeSelector" >
+36-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-54
+37
+38            <!-- <intent-filter> -->
+39            <!-- <action android:name="android.intent.action.MAIN" /> -->
+40            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+41            <!-- </intent-filter> -->
+42            <meta-data
+42-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-39:40
+43                android:name="unityplayer.UnityActivity"
+43-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:17-57
+44                android:value="true" />
+44-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:17-37
+45            <meta-data
+45-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-42:40
+46                android:name="android.notch_support"
+46-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:17-53
+47                android:value="true" />
+47-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:17-37
+48        </activity>
+49
+50        <meta-data
+50-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-47:33
+51            android:name="unity.splash-mode"
+51-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-45
+52            android:value="0" />
+52-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-30
+53        <meta-data
+53-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-50:36
+54            android:name="unity.splash-enable"
+54-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-47
+55            android:value="True" />
+55-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-33
+56        <meta-data
+56-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-53:50
+57            android:name="notch.config"
+57-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-40
+58            android:value="portrait|landscape" />
+58-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-47
+59        <meta-data
+59-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:68
+60            android:name="unity.build-id"
+60-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-42
+61            android:value="512a982c-9f4c-4a7a-9ff6-e7e0078fa75a" />
+61-->[__tested_artifact__::unityLibrary] C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-65
+62    </application>
+63
+64</manifest>
