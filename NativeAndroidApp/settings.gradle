@@ -1,5 +1,0 @@
-include ':app'
-rootProject.name='Drive360'
-
-include ':unityLibrary'
-project(':unityLibrary').projectDir=new File('..\\UnityProject\\androidBuild\\unityLibrary')
