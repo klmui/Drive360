@@ -11,6 +11,8 @@ public class QuizManager : MonoBehaviour
     // Question where the canvas appears
     public GameObject questionCanvas;
 
+    public GameObject scoreCanvas;
+
     public Text questionTitle;
 
     public Text scoreText;
@@ -33,9 +35,16 @@ public class QuizManager : MonoBehaviour
 
     int questionsShown = 0;
 
+    // For checking if video is over
+    double time;
+    double currentTime;
+
     // Start is called before the first frame update
     void Start()
     {
+
+        time = player.clip.length;
+
         scoreText.text = "Score: 0 / 0";
 
         // Pause quiz and don't show question canvas
@@ -43,6 +52,9 @@ public class QuizManager : MonoBehaviour
 
         // Hide question canvas
         questionCanvas.SetActive(false);
+
+        // Hide score canvas until the end
+        scoreCanvas.SetActive(false);
 
         // Prepare quiz first
         quiz = new Quiz();
@@ -70,14 +82,11 @@ public class QuizManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Check that we should be showing questions
-        if (!isShowingQuestions) return;
-
         // Increase elaptsed time based on last update (loop)
         elapsedTime += Time.deltaTime;
 
         // Check time, if a question is due, show it
-        if (elapsedTime > nextQuestion.time)
+        if ((elapsedTime > nextQuestion.time) && isShowingQuestions)
         {
             // Show question
 
@@ -90,6 +99,15 @@ public class QuizManager : MonoBehaviour
             // 3) Pause the quiz
             pauseQuiz();
         }
+
+        // Check if the video is over and then show results
+        currentTime = player.time;
+        if (((currentTime + .05) >= time) && !isShowingQuestions)
+        {
+            scoreCanvas.SetActive(true);
+            return;
+        }
+
     }
 
     void pauseQuiz()
@@ -129,7 +147,6 @@ public class QuizManager : MonoBehaviour
                 // No more questions left
                 print("Completed quiz");
                 questionCanvas.SetActive(false);
-                scoreText.text += "\nYou completed the quiz!";
                 player.Play();
                 return;
             }
@@ -152,13 +169,13 @@ public class QuizManager : MonoBehaviour
         if (response == nextQuestion.correct)
         {
             totalCorrect++;
-            scoreText.text = "Correct!";
+            //scoreText.text = "Correct!";
         } else
         {
-            scoreText.text = "Wrong answer!";
+            //scoreText.text = "Wrong answer!";
         }
 
-        scoreText.text += "\nScore: " + totalCorrect + " / " + questionsShown;
+        scoreText.text = "You completed this tutorial!\nScore: " + totalCorrect + " / " + questionsShown;
 
         // Move on to next question
         prepareNext();
