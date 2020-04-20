@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 34
+  controlID: 167
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 35
+  controlID: 168
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 36
+  controlID: 169
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/monicas/Documents/Drive360/UnityProject
+  m_LastProjectPath: /Users/dogeball/Documents/Drive360/UnityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ac330000
-    m_LastClickedID: 13228
-    m_ExpandedIDs: 000000009e33000000ca9a3b
+    m_SelectedIDs: b2330000
+    m_LastClickedID: 13234
+    m_ExpandedIDs: 00000000b233000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e330000
+    m_ExpandedIDs: 00000000b2330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +504,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_ExpandedIDs: ccf9ffffe6f9ffffa6faffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -631,7 +631,7 @@ MonoBehaviour:
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
@@ -669,8 +669,10 @@ MonoBehaviour:
     width: 1532
     height: 790
   m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_SerializedCustomFieldsNames: []
+  m_SerializedCustomFieldsValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0

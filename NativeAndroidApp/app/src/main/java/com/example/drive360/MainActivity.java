@@ -160,6 +160,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // Transition to learn screen.
+    public void goToLearnScreen(View view) {
+        Intent intent = new Intent(this, LearnActivity.class);
+        startActivity(intent);
+    }
+
     public void onTestClicked(View view) {
         SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
         if (!sharedPreferences.getString("username", "").equals("")) {
