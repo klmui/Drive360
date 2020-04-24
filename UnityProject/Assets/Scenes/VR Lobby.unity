@@ -470,9 +470,46 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668143321}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f796d22375414b4891d8187f4145c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &668143323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668143321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d726ad499ea6bc649ac98048cc4b2538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &668143324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668143321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56de925de31a1fa4e8af8e076bc06e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Orange Photo Viewer
+--- !u!114 &668143325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668143321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d726ad499ea6bc649ac98048cc4b2538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &705507993
