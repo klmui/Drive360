@@ -175,3 +175,5 @@ These are some of the resources I used when embedding a VR Unity app inside an A
 - [Crashes on Android due to error "libmain.so not found"](https://github.com/f111fei/react-native-unity-view/issues/142#issuecomment-557162700)
 
 - [Why is the Unity Video Player not working? (Video not playing in Android)](https://github.com/f111fei/react-native-unity-view/issues/77)
+
+- [Fix Unity merge conflicts with these commands](https://stackoverflow.com/questions/38536896/git-reset-hard-origin-master-failing)
