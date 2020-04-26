@@ -374,7 +374,8 @@ PrefabInstance:
       propertyPath: m_Text
       value: Rain
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8501206736686927666, guid: 9989a2fc637e0ed4aa6b10b11002e67c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9989a2fc637e0ed4aa6b10b11002e67c, type: 3}
 --- !u!1001 &668143320
 PrefabInstance:
@@ -989,7 +990,7 @@ GameObject:
   - component: {fileID: 1430478131}
   - component: {fileID: 1430478130}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: ObjectFocusManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1007,6 +1008,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99123dd49d2674344b127eaaf004e124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onNewFocusObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1430478131
 Transform:
   m_ObjectHideFlags: 0
