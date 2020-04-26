@@ -3,8 +3,12 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - DestinationPinController
     - LookWithMouse
+    - MaterialGradientModifier
+    - ObjectFocus
+    - ObjectFocusManager
     - QuizManager
     - SupportBackScript
+    - VRCalloutController
     - VRStandardAssets.Utils.Reticle
     - VRStandardAssets.Utils.VRCameraUI
     - VRStandardAssets.Utils.VREyeRaycaster
@@ -63,29 +67,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11782}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 12168}
+      Script: {instanceID: 12172}
     - Class: 114
-      Script: {instanceID: 12256}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12656}
+      Script: {instanceID: 12660}
     - Class: 114
-      Script: {instanceID: 12690}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 13050}
+      Script: {instanceID: 13018}
+    - Class: 114
+      Script: {instanceID: 13056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -107,6 +113,85 @@ ScriptsOnlyBuild:
     - Class: 328
       Script: {instanceID: 0}
     - Class: 329
+      Script: {instanceID: 0}
+    Assets/Scenes/Orange Photo Viewer.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11176}
+    - Class: 114
+      Script: {instanceID: 11274}
+    - Class: 114
+      Script: {instanceID: 11342}
+    - Class: 114
+      Script: {instanceID: 11382}
+    - Class: 114
+      Script: {instanceID: 11394}
+    - Class: 114
+      Script: {instanceID: 11428}
+    - Class: 114
+      Script: {instanceID: 11788}
+    - Class: 114
+      Script: {instanceID: 11908}
+    - Class: 114
+      Script: {instanceID: 12260}
+    - Class: 114
+      Script: {instanceID: 12366}
+    - Class: 114
+      Script: {instanceID: 12660}
+    - Class: 114
+      Script: {instanceID: 12696}
+    - Class: 114
+      Script: {instanceID: 12764}
+    - Class: 114
+      Script: {instanceID: 13018}
+    - Class: 114
+      Script: {instanceID: 13056}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/VR Lobby.unity:
     - Class: 1
@@ -146,21 +231,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11496}
     - Class: 114
-      Script: {instanceID: 12256}
+      Script: {instanceID: 11784}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 12656}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 12690}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12758}
+      Script: {instanceID: 12660}
     - Class: 114
-      Script: {instanceID: 13050}
+      Script: {instanceID: 12688}
+    - Class: 114
+      Script: {instanceID: 12696}
+    - Class: 114
+      Script: {instanceID: 12764}
+    - Class: 114
+      Script: {instanceID: 13056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -272,6 +363,12 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
+      Hash: 751028550cc0a23bff7beaa3c529c420
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VRCalloutController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -308,6 +405,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 53996e64cb23d76699b0c4d3c872ec4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaterialGradientModifier
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -338,7 +441,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 0ca1520c30cc3412391434ff1bd364d3
+      Hash: d9eb2e84992179fd420a0854422056a6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuizManager
@@ -378,6 +481,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRStandardAssets.Utils
     className: VRDeviceManager
+  - hash:
+      serializedVersion: 2
+      Hash: eb8d7e48ebdd7380c98dc1879db6a0d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectFocusManager
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -560,6 +669,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 1e48a667cc4320acf50eaa0e56024273
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectFocus
+  - hash:
+      serializedVersion: 2
       Hash: fb99d2c4447eb74562e104ba7efc4404
     assemblyName: Assembly-CSharp.dll
     namespaceName: VRStandardAssets.Utils
@@ -694,4 +809,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/VR Lobby.unity
   - Assets/Scenes/Green Video Player.unity
+  - Assets/Scenes/Orange Photo Viewer.unity
   playerPath: C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/androidBuild

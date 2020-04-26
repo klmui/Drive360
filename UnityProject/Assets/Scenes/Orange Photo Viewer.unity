@@ -1564,7 +1564,7 @@ TextMesh:
   m_Text: Main Menu
   m_OffsetZ: 0
   m_CharacterSize: 0.16
-  m_LineSpacing: 1
+  m_LineSpacing: 0.5
   m_Anchor: 7
   m_Alignment: 1
   m_TabSize: 4
@@ -5858,14 +5858,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1228866188}
-  m_LocalRotation: {x: -0.050016787, y: 0.50704503, z: -0.014138172, w: 0.860351}
-  m_LocalPosition: {x: 9.3, y: 0.37211, z: 5.67671}
+  m_LocalRotation: {x: -0.04839306, y: 0.42041296, z: -0.018965188, w: 0.90584296}
+  m_LocalPosition: {x: 8.410955, y: 0.37211, z: 5.673853}
   m_LocalScale: {x: 2.2775, y: 1.4063, z: 3.183387}
   m_Children:
   - {fileID: 511366235}
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: -4.1130004, y: 61.181004, z: -4.315}
+  m_LocalEulerAnglesHint: {x: -4.1130004, y: 49.948, z: -4.315}
 --- !u!114 &1228866193
 MonoBehaviour:
   m_ObjectHideFlags: 0
