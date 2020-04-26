@@ -65,6 +65,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DestinationPinController.cs" />
     <Compile Include="Assets\Scripts\LookWithMouse.cs" />
+    <Compile Include="Assets\Scripts\MaterialGradientModifier.cs" />
+    <Compile Include="Assets\Scripts\ObjectFocus.cs" />
+    <Compile Include="Assets\Scripts\ObjectFocusManager.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Scripts\Quiz.cs" />
     <Compile Include="Assets\Scripts\QuizManager.cs" />

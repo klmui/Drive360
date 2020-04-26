@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1444071329109778269}
   - component: {fileID: 1444071329109778268}
   - component: {fileID: 1444071329109778271}
+  - component: {fileID: 2029427113603323473}
   m_Layer: 0
   m_Name: Video Box
   m_TagString: Untagged
@@ -94,6 +95,93 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2029427113603323473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444071329109778270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fbb78ca776f1345adba4577720dfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference: {fileID: 0}
+  minAngle: 10
+  maxAngle: 30
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  curveValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9078439174986038164}
+        m_MethodName: set_gradientPosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  rawValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onGotFocus:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1444071330318213177}
+        m_MethodName: set_fontSize
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 48
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onLostFocus:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1444071330318213177}
+        m_MethodName: set_fontSize
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 32
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onActionTrigger:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1444071330318213179
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,6 +193,7 @@ GameObject:
   - component: {fileID: 1444071330318213176}
   - component: {fileID: 1444071330318213126}
   - component: {fileID: 1444071330318213177}
+  - component: {fileID: 9078439174986038164}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -189,3 +278,44 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!114 &9078439174986038164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444071330318213179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae130b2493ab25498eaa4287444f1d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.8962264, g: 0.085725665, b: 0, a: 0.014705882}
+    key1: {r: 0.745283, g: 0, b: 0, a: 1}
+    key2: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 1}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
