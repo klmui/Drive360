@@ -1005,6 +1005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669446593}
   - component: {fileID: 1669446590}
+  - component: {fileID: 1669446592}
   - component: {fileID: 1669446591}
   m_Layer: 0
   m_Name: Spedometer
@@ -1038,6 +1039,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d726ad499ea6bc649ac98048cc4b2538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1669446592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669446589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418793f1391c3a34290f14f3619a123c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasToDisplay: {fileID: 1288839240}
+  hoverActivated: 1
+  isClickActivated: 0
 --- !u!4 &1669446593
 Transform:
   m_ObjectHideFlags: 0
