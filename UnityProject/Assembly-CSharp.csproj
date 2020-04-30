@@ -70,7 +70,7 @@
     <Compile Include="Assets\Scripts\ObjectFocusManager.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Scripts\Quiz.cs" />
-    <Compile Include="Assets\Scripts\QuizManager.cs" />
+    <Compile Include="Assets\Scripts\QuizManagerParallelPark.cs" />
     <Compile Include="Assets\Scripts\SupportBackScript.cs" />
     <Compile Include="Assets\Scripts\VRCalloutController.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\CanvasFaceCamera.cs" />
