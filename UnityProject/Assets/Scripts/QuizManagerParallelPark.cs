@@ -70,10 +70,6 @@ public class QuizManagerParallelPark : MonoBehaviour
         quiz.questions[0].title = "At this point, you should turn the wheel clockwise until it stops.";
         quiz.questions[0].correct = true;
 
-        quiz.questions[1].time = 10;
-        quiz.questions[1].title = "You should not look back while backing up.";
-        quiz.questions[1].correct = false;
-
         quiz.questions[2].time = 23;
         quiz.questions[2].title = "At this point, you should turn the wheel counter-clockwise.";
         quiz.questions[2].correct = false;
@@ -95,7 +91,6 @@ public class QuizManagerParallelPark : MonoBehaviour
         // Check time, if a question is due, show it
         if ((elapsedTime > nextQuestion.time) && isShowingQuestions)
         {
-            // Show question
 
             // 1) Show question canvas
             questionCanvas.SetActive(true);
@@ -119,16 +114,12 @@ public class QuizManagerParallelPark : MonoBehaviour
 
     void pauseQuiz()
     {
-        // Video paused
         player.Pause();
-
-        // No showing questions
         isShowingQuestions = false;
     }
 
     void resumeQuiz()
     {
-        // Continue playing video
         player.Play();
 
         // Continue measuring elapsed time
@@ -176,10 +167,6 @@ public class QuizManagerParallelPark : MonoBehaviour
         if (response == nextQuestion.correct)
         {
             totalCorrect++;
-            //scoreText.text = "Correct!";
-        } else
-        {
-            //scoreText.text = "Wrong answer!";
         }
 
         scoreText.text = "You completed this tutorial!\nScore: " + totalCorrect + " / " + questionsShown;
