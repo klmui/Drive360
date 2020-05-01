@@ -125,11 +125,11 @@ public class ObjectFocusManager : MonoBehaviour
 #if DEBUG
     private void OnGUI()
     {
-        GUILayout.Label("Objects in Focus : " + Count.ToString());
-        if (firstInList)
-        {
-            GUILayout.Label("1st : " + firstInList.name);
-        }
+        //GUILayout.Label("Objects in Focus : " + Count.ToString());
+        //if (firstInList)
+        //{
+        //    GUILayout.Label("1st : " + firstInList.name);
+        //}
     }
 #endif
     #endregion

@@ -58,25 +58,25 @@ public class QuizManagerParking : MonoBehaviour
 
         // Prepare quiz first
         quiz = new Quiz();
-        quiz.questions = new Question[1];
+        quiz.questions = new Question[3];
 
         // Initialize each question
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < 3; i++)
         {
             quiz.questions[i] = new Question();
         }
 
         quiz.questions[0].time = 2;
-        quiz.questions[0].title = "At this point, you should turn the wheel clockwise until it stops.";
-        quiz.questions[0].correct = true;
+        quiz.questions[0].title = "You should make narrow turns when parking.";
+        quiz.questions[0].correct = false;
 
-        //quiz.questions[2].time = 23;
-        //quiz.questions[2].title = "At this point, you should turn the wheel counter-clockwise.";
-        //quiz.questions[2].correct = false;
+        quiz.questions[1].time = 11;
+        quiz.questions[1].title = "After straightening the wheel, it is always necessary to pull the emergency break.";
+        quiz.questions[1].correct = false;
 
-        //quiz.questions[3].time = 31;
-        //quiz.questions[3].title = "Your wheels must be within 18 inches of the curb.";
-        //quiz.questions[3].correct = true;
+        quiz.questions[2].time = 17;
+        quiz.questions[2].title = "Backing out straight is important.";
+        quiz.questions[2].correct = true;
 
         // Prepare next question
         prepareNext();

@@ -66,17 +66,13 @@ public class QuizManagerIntersection : MonoBehaviour
             quiz.questions[i] = new Question();
         }
 
-        quiz.questions[0].time = 15;
-        quiz.questions[0].title = "Sudden lane changes does not increase the chance of hydroplaning.";
+        quiz.questions[0].time = 5;
+        quiz.questions[0].title = "If this intersection had no stop signs, no one has to stop or yeild.";
         quiz.questions[0].correct = false;
 
-        quiz.questions[1].time = 27;
-        quiz.questions[1].title = "You should begin to slow down here.";
+        quiz.questions[1].time = 11;
+        quiz.questions[1].title = "When going through intersections, you should be prepared to stop.";
         quiz.questions[1].correct = true;
-
-        quiz.questions[2].time = 35;
-        quiz.questions[2].title = "Turning right at any red stoplight is allowed.";
-        quiz.questions[2].correct = false;
 
         // Prepare next question
         prepareNext();

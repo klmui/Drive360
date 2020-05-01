@@ -483,9 +483,9 @@ PrefabInstance:
     - target: {fileID: 1444071330318213177, guid: 9989a2fc637e0ed4aa6b10b11002e67c,
         type: 3}
       propertyPath: m_Text
-      value: 'Uncontrolled
+      value: 'Residential
 
-        intersection'
+        Intersections'
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8501206736686927666, guid: 9989a2fc637e0ed4aa6b10b11002e67c, type: 3}
