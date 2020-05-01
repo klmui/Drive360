@@ -63,15 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DestinationPinController.cs" />
     <Compile Include="Assets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\Scripts\MaterialGradientModifier.cs" />
     <Compile Include="Assets\Scripts\ObjectFocus.cs" />
     <Compile Include="Assets\Scripts\ObjectFocusManager.cs" />
     <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Scripts\Quiz.cs" />
+    <Compile Include="Assets\Scripts\QuizManagerIntersection.cs" />
+    <Compile Include="Assets\Scripts\QuizManagerMerge.cs" />
     <Compile Include="Assets\Scripts\QuizManagerParallelPark.cs" />
+    <Compile Include="Assets\Scripts\QuizManagerParking.cs" />
+    <Compile Include="Assets\Scripts\QuizManagerRain.cs" />
     <Compile Include="Assets\Scripts\SupportBackScript.cs" />
+    <Compile Include="Assets\Scripts\SwitchScene.cs" />
     <Compile Include="Assets\Scripts\VRCalloutController.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\CanvasFaceCamera.cs" />
     <Compile Include="Assets\VR Standard Assets\Scripts\DragCamera.cs" />

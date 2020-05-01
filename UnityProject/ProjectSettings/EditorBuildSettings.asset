@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Orange Photo Viewer.unity
     guid: 577bbb49c8337864d8e2ff4174b58bc3
+  - enabled: 1
+    path: Assets/Scenes/Blue Video Player.unity
+    guid: a864dc026c3272a4c80b235426397dfd
+  - enabled: 1
+    path: Assets/Scenes/Gold Video Player.unity
+    guid: b67a8ba6582a1f94a97f8122ba5b0f20
+  - enabled: 1
+    path: Assets/Scenes/Purple Video Player.unity
+    guid: b89293704cc768546aca2edfd50676c8
+  - enabled: 1
+    path: Assets/Scenes/Red Video Player.unity
+    guid: 31ba1e19ab9e04b4d9161970deca9be5
   m_configObjects: {}
