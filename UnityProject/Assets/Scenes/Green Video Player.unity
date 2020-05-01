@@ -931,11 +931,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1517529490}
+      objectReference: {fileID: 0}
     - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: handleAnswer
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114492190761936308, guid: 125698553302b3d4e8b4781f5d295b56,
         type: 3}

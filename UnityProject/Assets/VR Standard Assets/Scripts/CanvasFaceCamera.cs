@@ -16,5 +16,14 @@ namespace ZenvaVR
             //set forward of the canvas
             transform.forward = direction;
         }
+
+        void Update()
+        {
+            //get direction (pos of the canvas - pos of the camera)
+            Vector3 direction = transform.position - Camera.main.transform.position;
+
+            //set forward of the canvas
+            transform.forward = direction;
+        }
     }
 }
