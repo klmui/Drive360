@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using VRStandardAssets.Utils;
 
 public class QuizManagerMerge : MonoBehaviour
 {
@@ -39,9 +40,31 @@ public class QuizManagerMerge : MonoBehaviour
     double time;
     double currentTime;
 
+    // For the look around part of the quiz
+    public Canvas instructionCanvas;
+    public VRInteractiveItem rearView;
+    public VRInteractiveItem sideView;
+    public VRInteractiveItem blindspot;
+    public GameObject rearViewObj;
+    public GameObject sideViewObj;
+    public GameObject blindspotObj;
+    private bool finished;
+    private bool finished2;
+
     // Start is called before the first frame update
     void Start()
     {
+        // Set up for look around activity
+        finished = false;
+        finished2 = false;
+        rearView.OnOver += hideRear;
+        sideView.OnOver += hideSide;
+        blindspot.OnOver += hideBlind;
+        // Hide stuff for look around part
+        rearViewObj.SetActive(false);
+        sideViewObj.SetActive(false);
+        blindspotObj.SetActive(false);
+        instructionCanvas.enabled = false;
 
         time = player.clip.length;
 
@@ -58,10 +81,10 @@ public class QuizManagerMerge : MonoBehaviour
 
         // Prepare quiz first
         quiz = new Quiz();
-        quiz.questions = new Question[2];
+        quiz.questions = new Question[3];
 
         // Initialize each question
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 3; i++)
         {
             quiz.questions[i] = new Question();
         }
@@ -70,9 +93,13 @@ public class QuizManagerMerge : MonoBehaviour
         quiz.questions[0].title = "You only need to check the rear-view mirror and side mirror to perform a lane change.";
         quiz.questions[0].correct = false;
 
-        quiz.questions[1].time = 29;
+        quiz.questions[1].time = 25;
         quiz.questions[1].title = "Drivers merging onto the highway have the right-of-way.";
         quiz.questions[1].correct = false;
+
+        quiz.questions[2].time = 41;
+        quiz.questions[2].title = "When merging or performing lane change, you should not slow down.";
+        quiz.questions[2].correct = true;
 
         // Prepare next question
         prepareNext();
@@ -84,6 +111,24 @@ public class QuizManagerMerge : MonoBehaviour
         // Increase elaptsed time based on last update (loop)
         elapsedTime += Time.deltaTime;
 
+        if (elapsedTime > 34 && !finished)
+        {
+            pauseQuiz();
+            instructionCanvas.enabled = true;
+            rearViewObj.SetActive(true);
+            sideViewObj.SetActive(true);
+            blindspotObj.SetActive(true);
+            finished = true;
+        }
+
+        if (elapsedTime > 34 && (!rearViewObj.activeSelf && !sideViewObj.activeSelf && !blindspotObj.activeSelf) && !finished2)
+        {
+            instructionCanvas.enabled = false;
+            resumeQuiz();
+            finished2 = true;
+            elapsedTime = 34;
+        }
+
         // Check time, if a question is due, show it
         if ((elapsedTime > nextQuestion.time) && isShowingQuestions)
         {
@@ -91,8 +136,8 @@ public class QuizManagerMerge : MonoBehaviour
             // 1) Show question canvas
             questionCanvas.SetActive(true);
             // Make question canvas face camera
-            questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
-            questionCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
+            questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 110;
+            questionCanvas.transform.LookAt(questionCanvas.transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 
             //get direction (pos of the canvas - pos of the camera)
@@ -100,17 +145,6 @@ public class QuizManagerMerge : MonoBehaviour
 
             //set forward of the canvas
             questionCanvas.transform.forward = direction;
-
-            // Make score canvas face camera
-            scoreCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
-            scoreCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
-                Camera.main.transform.rotation * Vector3.up);
-
-            //get direction (pos of the canvas - pos of the camera)
-            Vector3 directionScore = scoreCanvas.transform.position - Camera.main.transform.position;
-
-            //set forward of the canvas
-            scoreCanvas.transform.forward = directionScore;
 
             // 2) Set question title
             questionTitle.text = nextQuestion.title;
@@ -194,4 +228,32 @@ public class QuizManagerMerge : MonoBehaviour
         prepareNext();
     }
 
+    void OnEnable()
+    {
+        rearView.OnOver += hideRear;
+        sideView.OnOver += hideSide;
+        blindspot.OnOver += hideBlind;
+    }
+
+    void OnDisable()
+    {
+        rearView.OnOver -= hideRear;
+        sideView.OnOver -= hideSide;
+        blindspot.OnOver -= hideBlind;
+    }
+
+    void hideRear()
+    {
+        rearViewObj.SetActive(false);
+    }
+
+    void hideSide()
+    {
+        sideViewObj.SetActive(false);
+    }
+
+    void hideBlind()
+    {
+        blindspotObj.SetActive(false);
+    }
 }

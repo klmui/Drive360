@@ -96,7 +96,7 @@ public class QuizManagerParallelPark : MonoBehaviour
             questionCanvas.SetActive(true);
             // Make question canvas face camera
             questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
-            questionCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
+            questionCanvas.transform.LookAt(questionCanvas.transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 
             //get direction (pos of the canvas - pos of the camera)
@@ -107,7 +107,7 @@ public class QuizManagerParallelPark : MonoBehaviour
 
             // Make score canvas face camera
             scoreCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
-            scoreCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
+            scoreCanvas.transform.LookAt(scoreCanvas.transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 
             //get direction (pos of the canvas - pos of the camera)

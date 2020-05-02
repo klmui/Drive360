@@ -58,10 +58,10 @@ public class QuizManagerIntersection : MonoBehaviour
 
         // Prepare quiz first
         quiz = new Quiz();
-        quiz.questions = new Question[3];
+        quiz.questions = new Question[2];
 
         // Initialize each question
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 2; i++)
         {
             quiz.questions[i] = new Question();
         }
@@ -91,7 +91,7 @@ public class QuizManagerIntersection : MonoBehaviour
             // 1) Show question canvas
             questionCanvas.SetActive(true);
             // Make question canvas face camera
-            questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
+            questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 210;
             questionCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 
@@ -102,7 +102,7 @@ public class QuizManagerIntersection : MonoBehaviour
             questionCanvas.transform.forward = direction;
 
             // Make score canvas face camera
-            scoreCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
+            scoreCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 210;
             scoreCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 

@@ -95,7 +95,7 @@ public class QuizManagerParking : MonoBehaviour
             // 1) Show question canvas
             questionCanvas.SetActive(true);
             // Make question canvas face camera
-            questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
+            questionCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 110;
             questionCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 
@@ -106,7 +106,7 @@ public class QuizManagerParking : MonoBehaviour
             questionCanvas.transform.forward = direction;
 
             // Make score canvas face camera
-            scoreCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 5;
+            scoreCanvas.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 110;
             scoreCanvas.transform.LookAt(transform.position - Camera.main.transform.position,
                 Camera.main.transform.rotation * Vector3.up);
 
