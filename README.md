@@ -1,6 +1,7 @@
 # Drive 360
 
-This app is projected to get pushed to the Play Store by the end of April or early May.
+This app is projected to get pushed to the Play Store by the end of April or early May.</br>
+For most updated version of Android features, please see [Drive360_Android](https://github.com/khoa165/Drive360_Android).
 
 ## Team Members
 Kenneth Mui, [klmui@wisc.edu](mailto:klmui@wisc.edu), GitHub: klmui
