@@ -1,6 +1,10 @@
 # Drive 360
 
-This app is projected to get pushed to the Play Store by the end of April or early May.</br>
+[Drive 360 Demo](https://www.youtube.com/watch?v=rf12ErUmwHU&t=277s) </br>
+[Drive 360 Presentation](https://docs.google.com/presentation/d/1xL7NRLZldvfqtNInGwTzJ_mAhTbXMXgQtFnKLLsP35w/edit#slide=id.p)</br>
+[Drive 360 Write-up](https://docs.google.com/document/d/1qdIr72hjBhfkDsIyKGC3UVYc2gN9TthB4sy9NOU5dy4/edit)
+
+This app is projected to get pushed to the Play Store by the end of April or near the end of May.</br>
 For most updated version of Android features, please see [Drive360_Android](https://github.com/khoa165/Drive360_Android).
 
 ## Team Members
