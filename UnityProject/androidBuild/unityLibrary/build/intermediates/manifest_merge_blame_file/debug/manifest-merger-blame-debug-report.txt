@@ -56,64 +56,56 @@
 33-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
 34            android:theme="@style/UnityThemeSelector" >
 34-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
-35            <intent-filter>
-35-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-10:23
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:9-61
-36-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:17-58
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:9-69
-38-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:8:19-66
-39                <category android:name="com.google.intent.category.CARDBOARD" />
-39-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:9-73
-39-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:19-70
-40            </intent-filter>
-41
-42            <meta-data
-42-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:7-82
-43                android:name="unityplayer.UnityActivity"
-43-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:18-58
-44                android:value="true" />
-44-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:59-79
-45            <meta-data
-45-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:7-78
-46                android:name="android.notch_support"
-46-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:18-54
-47                android:value="true" />
-47-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:55-75
-48        </activity>
-49
-50        <meta-data
-50-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-88
-51            android:name="unityplayer.SkipPermissionsDialog"
-51-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-64
-52            android:value="true" />
-52-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:65-85
-53        <meta-data
-53-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-69
-54            android:name="unity.splash-mode"
-54-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-48
-55            android:value="0" />
-55-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:49-66
-56        <meta-data
-56-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:5-75
-57            android:name="unity.splash-enable"
-57-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:16-50
-58            android:value="False" />
-58-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:51-72
-59        <meta-data
-59-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:5-81
-60            android:name="notch.config"
-60-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:16-43
-61            android:value="portrait|landscape" />
-61-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:44-78
-62        <meta-data
-62-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:5-101
-63            android:name="unity.build-id"
-63-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:16-45
-64            android:value="158696ab-7e9e-4e2f-882a-bb2cbea70c9c" />
-64-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:46-98
-65    </application>
-66
-67</manifest>
+35
+36            <!-- <intent-filter> -->
+37            <!-- <action android:name="android.intent.action.MAIN" /> -->
+38            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+39            <!-- <category android:name="com.google.intent.category.CARDBOARD" /> -->
+40            <!-- </intent-filter> -->
+41            <meta-data
+41-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:7-82
+42                android:name="unityplayer.UnityActivity"
+42-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:18-58
+43                android:value="true" />
+43-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:59-79
+44            <meta-data
+44-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:7-78
+45                android:name="android.notch_support"
+45-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:18-54
+46                android:value="true" />
+46-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+47        </activity>
+48
+49        <meta-data
+49-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-88
+50            android:name="unityplayer.SkipPermissionsDialog"
+50-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-64
+51            android:value="true" />
+51-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:65-85
+52        <meta-data
+52-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:5-69
+53            android:name="unity.splash-mode"
+53-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:16-48
+54            android:value="0" />
+54-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:15:49-66
+55        <meta-data
+55-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:5-75
+56            android:name="unity.splash-enable"
+56-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:16-50
+57            android:value="False" />
+57-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:51-72
+58        <meta-data
+58-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+59            android:name="notch.config"
+59-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+60            android:value="portrait|landscape" />
+60-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+61        <meta-data
+61-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:5-101
+62            android:name="unity.build-id"
+62-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:16-45
+63            android:value="1e927645-f884-4370-a069-327cea8626be" />
+63-->C:\Users\Kenny\OneDrive - UW-Madison\Drive360\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:46-98
+64    </application>
+65
+66</manifest>

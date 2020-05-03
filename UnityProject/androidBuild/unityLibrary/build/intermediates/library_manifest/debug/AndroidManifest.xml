@@ -32,13 +32,12 @@
             android:launchMode="singleTask"
             android:screenOrientation="fullSensor"
             android:theme="@style/UnityThemeSelector" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="com.google.intent.category.CARDBOARD" />
-            </intent-filter>
-
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- <category android:name="com.google.intent.category.CARDBOARD" /> -->
+            <!-- </intent-filter> -->
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
@@ -61,7 +60,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="158696ab-7e9e-4e2f-882a-bb2cbea70c9c" />
+            android:value="1e927645-f884-4370-a069-327cea8626be" />
     </application>
 
 </manifest>
