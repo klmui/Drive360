@@ -97,7 +97,7 @@ public class QuizManagerMerge : MonoBehaviour
         quiz.questions[1].title = "Drivers merging onto the highway have the right-of-way.";
         quiz.questions[1].correct = false;
 
-        quiz.questions[2].time = 41;
+        quiz.questions[2].time = 40;
         quiz.questions[2].title = "When merging or performing lane change, you should not slow down.";
         quiz.questions[2].correct = true;
 
@@ -155,7 +155,7 @@ public class QuizManagerMerge : MonoBehaviour
 
         // Check if the video is over and then show results
         currentTime = player.time;
-        if (((currentTime + .05) >= time) && !isShowingQuestions)
+        if (((currentTime + 1.1) >= time) && !isShowingQuestions)
         {
             scoreCanvas.SetActive(true);
             return;

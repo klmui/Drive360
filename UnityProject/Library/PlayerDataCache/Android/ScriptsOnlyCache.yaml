@@ -1,13 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DestinationPinController
     - LookWithMouse
     - MaterialGradientModifier
     - ObjectFocus
     - ObjectFocusManager
-    - QuizManager
+    - QuizManagerIntersection
+    - QuizManagerMerge
+    - QuizManagerParallelPark
+    - QuizManagerParking
+    - QuizManagerRain
     - SupportBackScript
+    - SwitchScene
     - VRCalloutController
     - VRStandardAssets.Utils.Reticle
     - VRStandardAssets.Utils.VRCameraUI
@@ -31,6 +35,164 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Blue Video Player.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11336}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11500}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 114
+      Script: {instanceID: 11594}
+    - Class: 114
+      Script: {instanceID: 11884}
+    - Class: 114
+      Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 12096}
+    - Class: 114
+      Script: {instanceID: 12390}
+    - Class: 114
+      Script: {instanceID: 12486}
+    - Class: 114
+      Script: {instanceID: 12602}
+    - Class: 114
+      Script: {instanceID: 12900}
+    - Class: 114
+      Script: {instanceID: 12926}
+    - Class: 114
+      Script: {instanceID: 12964}
+    - Class: 114
+      Script: {instanceID: 13038}
+    - Class: 114
+      Script: {instanceID: 13308}
+    - Class: 114
+      Script: {instanceID: 13348}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    Assets/Scenes/Gold Video Player.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11336}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11500}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 114
+      Script: {instanceID: 11594}
+    - Class: 114
+      Script: {instanceID: 11884}
+    - Class: 114
+      Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 12096}
+    - Class: 114
+      Script: {instanceID: 12350}
+    - Class: 114
+      Script: {instanceID: 12390}
+    - Class: 114
+      Script: {instanceID: 12486}
+    - Class: 114
+      Script: {instanceID: 12602}
+    - Class: 114
+      Script: {instanceID: 12926}
+    - Class: 114
+      Script: {instanceID: 12964}
+    - Class: 114
+      Script: {instanceID: 13038}
+    - Class: 114
+      Script: {instanceID: 13308}
+    - Class: 114
+      Script: {instanceID: 13348}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
     Assets/Scenes/Green Video Player.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -57,41 +219,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11192}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11594}
     - Class: 114
-      Script: {instanceID: 11596}
+      Script: {instanceID: 11770}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11884}
     - Class: 114
-      Script: {instanceID: 11788}
+      Script: {instanceID: 11974}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12172}
+      Script: {instanceID: 12390}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 13308}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,35 +310,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11594}
     - Class: 114
-      Script: {instanceID: 11788}
+      Script: {instanceID: 11974}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 13308}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -192,6 +354,164 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Purple Video Player.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11336}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11500}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 114
+      Script: {instanceID: 11594}
+    - Class: 114
+      Script: {instanceID: 11884}
+    - Class: 114
+      Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 12096}
+    - Class: 114
+      Script: {instanceID: 12190}
+    - Class: 114
+      Script: {instanceID: 12390}
+    - Class: 114
+      Script: {instanceID: 12486}
+    - Class: 114
+      Script: {instanceID: 12602}
+    - Class: 114
+      Script: {instanceID: 12926}
+    - Class: 114
+      Script: {instanceID: 12964}
+    - Class: 114
+      Script: {instanceID: 13038}
+    - Class: 114
+      Script: {instanceID: 13308}
+    - Class: 114
+      Script: {instanceID: 13348}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    Assets/Scenes/Red Video Player.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11336}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11500}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 114
+      Script: {instanceID: 11594}
+    - Class: 114
+      Script: {instanceID: 11884}
+    - Class: 114
+      Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 12096}
+    - Class: 114
+      Script: {instanceID: 12390}
+    - Class: 114
+      Script: {instanceID: 12486}
+    - Class: 114
+      Script: {instanceID: 12506}
+    - Class: 114
+      Script: {instanceID: 12602}
+    - Class: 114
+      Script: {instanceID: 12926}
+    - Class: 114
+      Script: {instanceID: 12964}
+    - Class: 114
+      Script: {instanceID: 13038}
+    - Class: 114
+      Script: {instanceID: 13308}
+    - Class: 114
+      Script: {instanceID: 13348}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
     Assets/Scenes/VR Lobby.unity:
     - Class: 1
@@ -225,33 +545,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11594}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 12688}
+      Script: {instanceID: 12956}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -444,7 +764,7 @@ ScriptsOnlyBuild:
       Hash: d9eb2e84992179fd420a0854422056a6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: QuizManager
+    className: QuizManagerParallelPark
   - hash:
       serializedVersion: 2
       Hash: 4e9333594897a1fb8b136ad2eae996c7
@@ -537,6 +857,18 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: d9eb2e84992179fd420a0854422056a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuizManagerParking
+  - hash:
+      serializedVersion: 2
+      Hash: 9f0774d4a2c09d577b5b783019f187ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookManager
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -559,6 +891,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: ZenvaVR
     className: VRCalloutController
+  - hash:
+      serializedVersion: 2
+      Hash: d9eb2e84992179fd420a0854422056a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuizManagerIntersection
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -589,6 +927,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7a5ca9b2918ff44999a5005400fb8722
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuizManagerMerge
   - hash:
       serializedVersion: 2
       Hash: dd5f6d4262e7560da637ae2a2b138f70
@@ -651,6 +995,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: d9eb2e84992179fd420a0854422056a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuizManagerRain
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -684,7 +1034,7 @@ ScriptsOnlyBuild:
       Hash: d91fcd9ac7bd86d3d771dd6171620fad
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DestinationPinController
+    className: SwitchScene
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -810,4 +1160,8 @@ ScriptsOnlyBuild:
   - Assets/Scenes/VR Lobby.unity
   - Assets/Scenes/Green Video Player.unity
   - Assets/Scenes/Orange Photo Viewer.unity
+  - Assets/Scenes/Blue Video Player.unity
+  - Assets/Scenes/Gold Video Player.unity
+  - Assets/Scenes/Purple Video Player.unity
+  - Assets/Scenes/Red Video Player.unity
   playerPath: C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/androidBuild

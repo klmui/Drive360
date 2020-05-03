@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.LearnActivity">
+
+    <Button
+        android:id="@+id/learnButton"
+        android:layout_width="196dp"
+        android:layout_height="85dp"
+        android:background="@drawable/rounded_white_background"
+        android:fontFamily="@font/arimo"
+        android:text="Manual"
+        android:onClick="goToManualScreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="196dp"
+        android:layout_height="85dp"
+        android:background="@drawable/rounded_white_background"
+        android:fontFamily="@font/arimo"
+        android:onClick="goToTestScreen"
+        android:text="Test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/tipButton"
+        android:layout_width="196dp"
+        android:layout_height="85dp"
+        android:background="@drawable/rounded_white_background"
+        android:fontFamily="@font/arimo"
+        android:onClick="goToViewTipScreen"
+        android:text="Tips"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/backgroundMainImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/road" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

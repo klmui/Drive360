@@ -102,6 +102,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="BuildPostProcessGVRPods">
+      <HintPath>C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/Library/ScriptAssemblies/BuildPostProcessGVRPods.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>

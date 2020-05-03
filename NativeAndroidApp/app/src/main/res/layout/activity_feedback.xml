@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FeedbackActivity">
+    tools:context=".forms.FeedbackActivity">
 
     <TextView
         android:id="@+id/feedbackHeading"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Let us know :)"
+        android:hint="@string/feedback_hint"
         android:inputType="textMultiLine"
         android:maxLines="5"
         android:minLines="5"

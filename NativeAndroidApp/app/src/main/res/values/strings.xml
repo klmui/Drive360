@@ -2,9 +2,20 @@
     <string name="app_name">Drive360</string>
     <string name="register_heading">Create a new account</string>
     <string name="login_heading">Sign in to your account</string>
-    <string name="register_redirect">Doesn\'t have an account? Join us!</string>
+    <string name="register_redirect">Don\'t have an account? Join us!</string>
     <string name="login_redirect">Already have an account? Login!</string>
     <string name="game_view_content_description">Game view</string>
+    <string name="add_test_heading">Build your own test!</string>
+    <string name="add_question_heading">Add question to set!</string>
+    <string name="add_tip_heading">We appreciate your contribution!</string>
     <string name="feedback_heading">We appreciate your feedback!</string>
-    <string name="admin_dashboard_heading">Drive360 overview!</string>
+    <string name="test_name_hint">Give your test a cool name</string>
+    <string name="question_name_hint">Please enter the question :)</string>
+    <string name="test_description_hint">What is this test about?</string>
+    <string name="add_tip_hint">Share helpful tips with your learning fellows :)</string>
+    <string name="admin_dashboard_heading">Drive360 Overview!</string>
+    <string name="feedback_hint">Let us know :)</string>
+    <string name="submit">Submit</string>
+    <string name="user_feedback">User Feedback</string>
+    <string name="user_information">User Information</string>
 </resources>

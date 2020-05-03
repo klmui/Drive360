@@ -2684,7 +2684,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110217567}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: f3705c1c173ef5245a743c8362690db7, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7e7a686fa99c76345b7f906a29513a6d, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2701,7 +2701,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url: file://C:/Users/Kenny/OneDrive - UW-Madison/Drive360/UnityProject/Assets/Videos/Merge.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="40dp"
+    tools:context=".forms.AddQuestionActivity">
+
+    <ImageView
+        android:id="@+id/backgroundQuestionImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/test_image" />
+
+    <TextView
+        android:id="@+id/addQuestionHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_question_heading"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <EditText
+        android:id="@+id/questionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:gravity="start|top"
+        android:hint="@string/question_name_hint"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:minLines="4"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addQuestionHeading"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <EditText
+        android:id="@+id/questionFirstChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:textSize="15dp"
+        android:layout_marginTop="2px"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="Answer choice A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionName"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/questionSecondChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:textSize="15dp"
+        android:layout_marginTop="15px"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="Answer choice B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionFirstChoice"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/questionThirdChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:textSize="15dp"
+        android:layout_marginTop="15px"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="Answer choice C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionSecondChoice"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/questionFourthChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:textSize="15dp"
+        android:layout_marginTop="15px"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="Answer choice D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionThirdChoice"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/questionCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#eee"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionFourthChoice"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:onClick="createQuestion"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionCorrectAnswer"
+        app:layout_constraintVertical_bias="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

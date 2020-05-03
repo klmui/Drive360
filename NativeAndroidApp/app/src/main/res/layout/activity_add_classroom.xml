@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="50dp"
+    tools:context=".forms.AddClassroomActivity">
+
+    <ImageView
+        android:id="@+id/backgroundClassroomImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/test_image" />
+
+    <TextView
+        android:id="@+id/addClassroomHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new classroom"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/classroomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="Give your classroom a name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addClassroomHeading"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/classroomDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:gravity="start|top"
+        android:hint="Brief description of your class"
+        android:inputType="textMultiLine"
+        android:maxLines="20"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/classroomName"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <EditText
+        android:id="@+id/classroomWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="Link to classroom website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/classroomDescription"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:fontFamily="@font/arimo"
+        android:onClick="createClassroom"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/classroomDescription"
+        app:layout_constraintVertical_bias="0.4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

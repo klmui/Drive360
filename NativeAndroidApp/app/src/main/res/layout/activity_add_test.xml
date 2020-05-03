@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="50dp"
+    app:srcCompat="@drawable/test_image"
+    tools:context=".forms.AddTestActivity">
+
+    <ImageView
+        android:id="@+id/backgroundTestImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/test_image" />
+
+    <TextView
+        android:id="@+id/addTestHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_test_heading"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/isAdminTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin test?"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Switch
+        android:id="@+id/adminTestSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/isAdminTest"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <EditText
+        android:id="@+id/testName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:hint="@string/test_name_hint"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminTestSwitch"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <EditText
+        android:id="@+id/testDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/test_description_hint"
+        android:inputType="textMultiLine"
+        android:maxLines="20"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/testName"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dark_background"
+        android:fontFamily="@font/arimo"
+        android:onClick="createTest"
+        android:padding="15dp"
+        android:text="Submit"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/testDescription"
+        app:layout_constraintVertical_bias="0.349" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

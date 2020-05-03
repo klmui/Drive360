@@ -2,26 +2,27 @@ package com.example.drive360;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
 
 import android.app.AlarmManager;
-import android.app.Notification;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
+
+import com.example.drive360.auth.LoginActivity;
+import com.example.drive360.forms.FeedbackActivity;
+import com.example.drive360.pages.AdminDashboardActivity;
+import com.example.drive360.pages.ClassroomDashboardActivity;
+import com.example.drive360.pages.LearnActivity;
+import com.example.drive360.pages.MainUnityActivity;
 
 import java.util.Calendar;
-
-import static com.example.drive360.App.CHANNEL_1_ID;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -68,25 +69,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == R.id.logout) {
-            SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
-
-            // Set isAuthenticated to false and remove username form sharedPreferences.
-            sharedPreferences.edit().putBoolean("isAuthenticated", false).apply();
-            sharedPreferences.edit().remove("username").apply();
-
-            // Redirect the user to login screen.
-            goToLoginScreen();
-            return true;
-        } else if (item.getItemId() == R.id.admin_dashboard) {
-            goToAdminDashboardScreen();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
 
@@ -103,6 +85,29 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.logout) {
+            SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
+
+            sharedPreferences.edit().putBoolean("isAuthenticated", false).apply();
+            sharedPreferences.edit().putBoolean("isAdmin", false).apply();
+            sharedPreferences.edit().putBoolean("isInstructor", false).apply();
+            sharedPreferences.edit().remove("username").apply();
+            sharedPreferences.edit().remove("testId").apply();
+            sharedPreferences.edit().remove("questionId").apply();
+
+            // Redirect the user to login screen.
+            goToLoginScreen();
+            Toast.makeText(MainActivity.this, "Sign out successful!", Toast.LENGTH_LONG).show();
+            return true;
+        } else if (item.getItemId() == R.id.admin_dashboard) {
+            goToAdminDashboardScreen();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     /**
@@ -145,13 +150,13 @@ public class MainActivity extends AppCompatActivity {
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
         // Makes sure alarm will fire and wake up screen (1st arg)
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, alarmTime.getTimeInMillis(), 1000 * 60 * 60 * 24, pendingIntent);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, alarmTime.getTimeInMillis(), 1000 * 60 * 60 * 24 * 7, pendingIntent);
     }
 
     public void btnLoadUnity(View v) {
-        Intent intent = new Intent(this, MainUnityActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-        startActivityForResult(intent, 1);
+         Intent intent = new Intent(this, MainUnityActivity.class);
+         intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+         startActivityForResult(intent, 1);
     }
 
     // Transition to feedback screen.
@@ -160,14 +165,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onTestClicked(View view) {
-        SharedPreferences sharedPreferences = getSharedPreferences("com.example.drive360", Context.MODE_PRIVATE);
-        if (!sharedPreferences.getString("username", "").equals("")) {
-            String userName = sharedPreferences.getString("username", "");
-            Intent intent = new Intent(this, TestPage.class);
-            intent.putExtra("message", userName);
-            startActivity(intent);
-        }
+    // Transition to classroom dashboard screen.
+    public void goToClassroomDashboardScreen(View view) {
+        Intent intent = new Intent(this, ClassroomDashboardActivity.class);
+        startActivity(intent);
     }
 
+    // Transition to learn screen.
+    public void goToLearnScreen(View view) {
+        Intent intent = new Intent(this, LearnActivity.class);
+        startActivity(intent);
+    }
 }

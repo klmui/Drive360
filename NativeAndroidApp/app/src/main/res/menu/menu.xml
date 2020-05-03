@@ -4,23 +4,14 @@
 
     <item
         android:id="@+id/welcome"
-        android:title="Logout"
-        app:showAsAction="never">
-    </item>
+        android:title="Welcome!"
+        app:showAsAction="never" />
     <item
         android:id="@+id/admin_dashboard"
         android:title="Admin Dashboard"
-        app:showAsAction="never">
-    </item>
+        app:showAsAction="never" />
     <item
         android:id="@+id/logout"
         android:title="Logout"
-        app:showAsAction="never">
-    </item>
-    <item
-        android:id="@id/add"
-        android:icon="@drawable/ic_add_black_24dp"
-        android:title="Add"
-        android:visible="false"
-        app:showAsAction="ifRoom"></item>
+        app:showAsAction="never" />
 </menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="50dp"
+    tools:context=".forms.AddDiscussionActivity">
+
+    <TextView
+        android:id="@+id/discussionHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discuss with your learning fellows"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Spinner
+        android:id="@+id/discussionCategory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#eee"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/discussionHeading"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <EditText
+        android:id="@+id/discussionContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="What do you want to talk about?"
+        android:inputType="textMultiLine"
+        android:maxLines="20"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/discussionCategory"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="submitDiscussion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discussionContent"
+        app:layout_constraintVertical_bias="0.15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
