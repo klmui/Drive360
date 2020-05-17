@@ -1,10 +1,9 @@
-# Drive 360
+# Drive 360 - [Video Demo](https://www.youtube.com/watch?v=rf12ErUmwHU&t=277s) </br>
 
-[Drive 360 Demo](https://www.youtube.com/watch?v=rf12ErUmwHU&t=277s) </br>
 [Drive 360 Presentation](https://docs.google.com/presentation/d/1xL7NRLZldvfqtNInGwTzJ_mAhTbXMXgQtFnKLLsP35w/edit#slide=id.p)</br>
 [Drive 360 Write-up](https://docs.google.com/document/d/1qdIr72hjBhfkDsIyKGC3UVYc2gN9TthB4sy9NOU5dy4/edit)
 
-This app is projected to get pushed to the Play Store by the end of April or near the end of May.</br>
+We are hoping to get this app pushed to the play store in the future!</br>
 For most updated version of Android features, please see [Drive360_Android](https://github.com/khoa165/Drive360_Android).
 
 ## Team Members
@@ -32,7 +31,9 @@ The app is very mobile-driven innovative since it focuses on turning tedious dri
 ## Main modules
 
 The application will be built with VR technology, programmed on Unity and its framework. Afterwards, the Unity application will be exported to Android Studio and embedded in an Android Studio application. The Android Studio application will allow users to select different scenarios and provide suggestions and feedback on driving tutorials. The majority of work would be processing the videos and turning it into VR driving tutorial content. The application controller would probably be built in Android Studio and allow the users to interact with the app. We will also be using Josh’s framework for VR streaming.
-  
+
+
+## Screenshots
 
 ## Wireframes
 
