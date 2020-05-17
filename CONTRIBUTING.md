@@ -1,16 +1,20 @@
 ## Contribution Guidelines
 
+### Android-only Guidelines
+- If you are working on the Android portion, refer to the Android Studio only repository to avoid merge conflicts. Once you are done and want to merge a feature, please email klmui@wisc.edu. You can ignore the rest of the guidelines.
+
+### Other Guidelines
 - Make sure you have Git LFS installed and set up if you are a developer since the videos take up a lot of space and GitHub is not happy with it.
 
-    - Run: "git lfs track '*.mp4' in GitBash (working directory is the project).
+    ~~- Run: "git lfs track '*.mp4' in GitBash (working directory is the project).~~
 
-    - Run: "git lfs track '*.resource' in GitBash (working directory is the project).
+    ~~- Run: "git lfs track '*.resource' in GitBash (working directory is the project).~~
 
-    - Run "git lfs track" to make sure all mp4 and resource files are being tracked.
+    ~~- Run "git lfs track" to make sure all mp4 and resource files are being tracked.~~
 
-    - Run "git lfs ls-files" to make sure the correct video files are tracked.
+    ~~- Run "git lfs ls-files" to make sure the correct video files are tracked.~~
 
-    - If GitHub doesn't let you push still, refer to git lfs migrate import in the resources section in README.md.
+    ~~- If GitHub doesn't let you push still, refer to git lfs migrate import in the resources section in README.md.~~
 
 - Open up the corresponding AndroidNativeApp or UnityProject folder in either Android Studio or Unity.
 
