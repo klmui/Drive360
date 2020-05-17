@@ -3,7 +3,7 @@
 [Drive 360 Presentation](https://docs.google.com/presentation/d/1xL7NRLZldvfqtNInGwTzJ_mAhTbXMXgQtFnKLLsP35w/edit#slide=id.p)</br>
 [Drive 360 Write-up](https://docs.google.com/document/d/1qdIr72hjBhfkDsIyKGC3UVYc2gN9TthB4sy9NOU5dy4/edit)
 
-We are hoping to get this app pushed to the play store in the future!</br>
+We are hoping to push this app to the Play Store!</br>
 For most updated version of Android features, please see [Drive360_Android](https://github.com/khoa165/Drive360_Android).
 
 ## Team Members
@@ -28,12 +28,26 @@ Drive 360 helps students in driver’s education classes learn the rules of driv
 
 The app is very mobile-driven innovative since it focuses on turning tedious driving tutorials into a more interactive and dynamic platform that excites the users and encourages their engagement with the app.  This app can be used in driver’s education classes and as a learning resource for people learning how to drive since the equipment is not too expensive for classrooms.
     
-## Main modules
-
-The application will be built with VR technology, programmed on Unity and its framework. Afterwards, the Unity application will be exported to Android Studio and embedded in an Android Studio application. The Android Studio application will allow users to select different scenarios and provide suggestions and feedback on driving tutorials. The majority of work would be processing the videos and turning it into VR driving tutorial content. The application controller would probably be built in Android Studio and allow the users to interact with the app. We will also be using Josh’s framework for VR streaming.
-
+## Implementation
+<img src="Images/1.PNG" width="500" height="250">
 
 ## Screenshots
+
+<img src="Images/2.PNG" width="500" height="250">
+
+<img src="Images/3.PNG" width="500" height="250">
+
+<img src="Images/4.PNG" width="500" height="250">
+
+<img src="Images/5.PNG" width="500" height="250">
+
+<img src="Images/6.PNG" width="500" height="250">
+
+<img src="Images/7.PNG" width="500" height="250">
+
+<img src="Images/8.PNG" width="500" height="250">
+
+<img src="Images/9.PNG" width="500" height="250">
 
 ## Wireframes
 
